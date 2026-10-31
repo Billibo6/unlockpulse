@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AVA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ava-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AVA unlock: 1.5% of circulating (Small)
+DESCRIPTION:AVA (Travala) (AVA) unlocks 1.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ava.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ava.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:AVA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

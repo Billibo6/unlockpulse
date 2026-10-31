@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MCH token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:mch-20261103@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:MCH unlock: 7.0% of circulating (Medium)
+DESCRIPTION:Moonchain (MCH) unlocks 7.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/mch.html
+URL:https://billibo6.github.io/unlockpulse/unlock/mch.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MCH unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MAMO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:mamo-20261121@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:MAMO unlock: 4.4% of circulating (Small)
+DESCRIPTION:Mamo (MAMO) unlocks 4.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/mamo.html
+URL:https://billibo6.github.io/unlockpulse/unlock/mamo.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MAMO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AGT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:agt-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AGT unlock: 2.8% of circulating (Small)
+DESCRIPTION:Alaya Governance Token (AGT) unlocks 2.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/agt.html
+URL:https://billibo6.github.io/unlockpulse/unlock/agt.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:AGT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

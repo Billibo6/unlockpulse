@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BANK token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:bank-20261117@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:BANK unlock: 5.2% of circulating (Medium)
+DESCRIPTION:Lorenzo Protocol (BANK) unlocks 5.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/bank.html
+URL:https://billibo6.github.io/unlockpulse/unlock/bank.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BANK unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

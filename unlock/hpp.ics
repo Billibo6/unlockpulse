@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HPP token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:hpp-20261118@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:HPP unlock: 2.2% of circulating (Small)
+DESCRIPTION:House Party Protocol (HPP) unlocks 2.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/hpp.html
+URL:https://billibo6.github.io/unlockpulse/unlock/hpp.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:HPP unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

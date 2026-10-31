@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WAI token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:wai-20261112@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:WAI unlock: 6.4% of circulating (Medium)
+DESCRIPTION:World3 (WAI) unlocks 6.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/wai.html
+URL:https://billibo6.github.io/unlockpulse/unlock/wai.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:WAI unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

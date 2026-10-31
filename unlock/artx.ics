@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ARTX token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:artx-20261121@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:ARTX unlock: 6.5% of circulating (Medium)
+DESCRIPTION:ULTILAND (ARTX) unlocks 6.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/artx.html
+URL:https://billibo6.github.io/unlockpulse/unlock/artx.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ARTX unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

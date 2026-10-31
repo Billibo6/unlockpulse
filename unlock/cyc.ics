@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CYC token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:cyc-20261104@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:CYC unlock: 31.4% of circulating (Strong)
+DESCRIPTION:Cycle Network (CYC) unlocks 31.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/cyc.html
+URL:https://billibo6.github.io/unlockpulse/unlock/cyc.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:CYC unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

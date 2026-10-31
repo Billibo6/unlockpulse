@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MWXT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:mwxt-20261120@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:MWXT unlock: 10.7% of circulating (Strong)
+DESCRIPTION:MWX Token (MWXT) unlocks 10.7% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/mwxt.html
+URL:https://billibo6.github.io/unlockpulse/unlock/mwxt.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MWXT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

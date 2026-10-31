@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WCT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:wct-20261125@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:WCT unlock: 3.8% of circulating (Small)
+DESCRIPTION:WalletConnect Token (WCT) unlocks 3.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/wct.html
+URL:https://billibo6.github.io/unlockpulse/unlock/wct.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:WCT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

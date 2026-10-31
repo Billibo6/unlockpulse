@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:KNTQ token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:kntq-20261127@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:KNTQ unlock: 4.5% of circulating (Small)
+DESCRIPTION:Kinetiq (KNTQ) unlocks 4.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/kntq.html
+URL:https://billibo6.github.io/unlockpulse/unlock/kntq.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:KNTQ unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

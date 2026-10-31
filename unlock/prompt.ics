@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PROMPT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:prompt-20261028@unlockpulse
+DTSTAMP:20261027T233101Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:PROMPT unlock: 2.1% of circulating (Small)
+DESCRIPTION:Wayfinder (PROMPT) unlocks 2.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/prompt.html
+URL:https://billibo6.github.io/unlockpulse/unlock/prompt.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PROMPT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TCOM token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:tcom-20261115@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TCOM unlock: 23.9% of circulating (Strong)
+DESCRIPTION:TCOM Global (TCOM) unlocks 23.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/tcom.html
+URL:https://billibo6.github.io/unlockpulse/unlock/tcom.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:TCOM unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

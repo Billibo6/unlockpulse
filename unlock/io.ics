@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:io-20261028@unlockpulse
+DTSTAMP:20261028T113101Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:IO unlock: 3.1% of circulating (Small)
+DESCRIPTION:io.net (IO) unlocks 3.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/io.html
+URL:https://billibo6.github.io/unlockpulse/unlock/io.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:IO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

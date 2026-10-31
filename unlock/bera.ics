@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BERA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:bera-20261106@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:BERA unlock: 3.8% of circulating (Small)
+DESCRIPTION:Berachain (BERA) unlocks 3.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/bera.html
+URL:https://billibo6.github.io/unlockpulse/unlock/bera.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BERA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2Z token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:2z-20261102@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:2Z unlock: 3.9% of circulating (Small)
+DESCRIPTION:DoubleZero (2Z) unlocks 3.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/2z.html
+URL:https://billibo6.github.io/unlockpulse/unlock/2z.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:2Z unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

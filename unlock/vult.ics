@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VULT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:vult-20261027@unlockpulse
+DTSTAMP:20261027T123101Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:VULT unlock: 2.6% of circulating (Small)
+DESCRIPTION:Vultisig (VULT) unlocks 2.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/vult.html
+URL:https://billibo6.github.io/unlockpulse/unlock/vult.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:VULT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

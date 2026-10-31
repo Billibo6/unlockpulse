@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SLX token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:slx-20261123@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:SLX unlock: 8.8% of circulating (Medium)
+DESCRIPTION:Solstice (SLX) unlocks 8.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/slx.html
+URL:https://billibo6.github.io/unlockpulse/unlock/slx.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SLX unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

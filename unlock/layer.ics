@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LAYER token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:layer-20261111@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:LAYER unlock: 4.8% of circulating (Small)
+DESCRIPTION:Solayer (LAYER) unlocks 4.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/layer.html
+URL:https://billibo6.github.io/unlockpulse/unlock/layer.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LAYER unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

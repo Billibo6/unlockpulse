@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BARD token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:bard-20261118@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:BARD unlock: 5.8% of circulating (Medium)
+DESCRIPTION:Lombard (BARD) unlocks 5.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/bard.html
+URL:https://billibo6.github.io/unlockpulse/unlock/bard.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BARD unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BTG token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:btg-20261102@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:BTG unlock: 129.2% of circulating (Strong)
+DESCRIPTION:Openverse Network (BTG) unlocks 129.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/btg.html
+URL:https://billibo6.github.io/unlockpulse/unlock/btg.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BTG unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

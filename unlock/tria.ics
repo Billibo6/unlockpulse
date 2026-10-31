@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TRIA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:tria-20261130@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:TRIA unlock: 3.6% of circulating (Small)
+DESCRIPTION:Tria (TRIA) unlocks 3.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/tria.html
+URL:https://billibo6.github.io/unlockpulse/unlock/tria.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:TRIA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

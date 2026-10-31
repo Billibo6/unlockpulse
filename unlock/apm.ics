@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:APM token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:apm-20261117@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:APM unlock: 18.8% of circulating (Strong)
+DESCRIPTION:apM Fashion (APM) unlocks 18.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/apm.html
+URL:https://billibo6.github.io/unlockpulse/unlock/apm.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:APM unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

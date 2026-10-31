@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ZORA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:zora-20261129@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:ZORA unlock: 2.9% of circulating (Small)
+DESCRIPTION:Zora Protocol (ZORA) unlocks 2.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/zora.html
+URL:https://billibo6.github.io/unlockpulse/unlock/zora.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ZORA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

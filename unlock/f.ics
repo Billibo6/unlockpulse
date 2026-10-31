@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:F token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:f-20261106@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:F unlock: 3.9% of circulating (Small)
+DESCRIPTION:SynFutures (F) unlocks 3.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/f.html
+URL:https://billibo6.github.io/unlockpulse/unlock/f.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:F unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

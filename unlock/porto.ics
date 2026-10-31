@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PORTO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:porto-20261115@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:PORTO unlock: 29.5% of circulating (Strong)
+DESCRIPTION:FC Porto Fan Token (PORTO) unlocks 29.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/porto.html
+URL:https://billibo6.github.io/unlockpulse/unlock/porto.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PORTO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

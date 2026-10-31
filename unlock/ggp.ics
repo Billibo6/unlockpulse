@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GGP token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ggp-20261028@unlockpulse
+DTSTAMP:20261028T023101Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:GGP unlock: 7.5% of circulating (Medium)
+DESCRIPTION:Hypha (GGP) unlocks 7.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ggp.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ggp.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:GGP unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

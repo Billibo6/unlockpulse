@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GUN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:gun-20261129@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:GUN unlock: 6.2% of circulating (Medium)
+DESCRIPTION:Gunz (GUN) unlocks 6.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/gun.html
+URL:https://billibo6.github.io/unlockpulse/unlock/gun.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:GUN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

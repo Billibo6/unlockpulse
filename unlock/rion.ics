@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RION token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:rion-20261116@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:RION unlock: 5.0% of circulating (Medium)
+DESCRIPTION:Hyperion (RION) unlocks 5.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/rion.html
+URL:https://billibo6.github.io/unlockpulse/unlock/rion.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:RION unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

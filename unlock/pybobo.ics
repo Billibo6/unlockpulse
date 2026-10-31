@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PYBOBO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:pybobo-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:PYBOBO unlock: 16.1% of circulating (Strong)
+DESCRIPTION:Capybobo (PYBOBO) unlocks 16.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/pybobo.html
+URL:https://billibo6.github.io/unlockpulse/unlock/pybobo.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PYBOBO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

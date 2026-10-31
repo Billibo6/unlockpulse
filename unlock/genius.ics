@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GENIUS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:genius-20261130@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:GENIUS unlock: 3.2% of circulating (Small)
+DESCRIPTION:Genius Terminal (GENIUS) unlocks 3.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/genius.html
+URL:https://billibo6.github.io/unlockpulse/unlock/genius.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:GENIUS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

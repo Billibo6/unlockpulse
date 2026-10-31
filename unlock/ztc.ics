@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ZTC token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ztc-20261107@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:ZTC unlock: 6.5% of circulating (Medium)
+DESCRIPTION:ZenChain (ZTC) unlocks 6.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ztc.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ztc.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ZTC unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

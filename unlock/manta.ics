@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MANTA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:manta-20261118@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:MANTA unlock: 2.9% of circulating (Small)
+DESCRIPTION:Manta Network (MANTA) unlocks 2.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/manta.html
+URL:https://billibo6.github.io/unlockpulse/unlock/manta.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MANTA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

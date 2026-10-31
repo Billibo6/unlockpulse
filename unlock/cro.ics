@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CRO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:cro-20261117@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:CRO unlock: 2.3% of circulating (Small)
+DESCRIPTION:Cronos (CRO) unlocks 2.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/cro.html
+URL:https://billibo6.github.io/unlockpulse/unlock/cro.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:CRO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VFY token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:vfy-20261031@unlockpulse
+DTSTAMP:20261030T233101Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:VFY unlock: 7.6% of circulating (Medium)
+DESCRIPTION:zkVerify (VFY) unlocks 7.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/vfy.html
+URL:https://billibo6.github.io/unlockpulse/unlock/vfy.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:VFY unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

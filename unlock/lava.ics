@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LAVA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:lava-20261112@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:LAVA unlock: 7.6% of circulating (Medium)
+DESCRIPTION:Lava Network (LAVA) unlocks 7.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/lava.html
+URL:https://billibo6.github.io/unlockpulse/unlock/lava.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LAVA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

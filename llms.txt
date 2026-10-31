@@ -1,0 +1,22 @@
+# Unlock Pulse
+
+> Free calendar of crypto token unlocks for the next 60 days. Each unlock is rated strong (>= 10.4% of circulating supply), medium (>= 5%) or small, with the 2023-2026 record of how tokens moved against Bitcoin in the week before past unlocks. Our ratings, track record and texts are CC BY 4.0 (cite "Unlock Pulse" with a link); unlock schedules come from CoinMarketCap and DefiLlama and remain subject to their terms.
+
+Key facts: of 100 past strong unlocks, 68% were weaker than Bitcoin in the week before the unlock (average -5.1%); medium and small unlocks behaved close to a coin toss. When trackers disagree on circulating supply we show a range.
+
+## Data
+- [Calendar, next 60 days](https://billibo6.github.io/unlockpulse/)
+- [data.json, all upcoming unlocks](https://billibo6.github.io/unlockpulse/data.json)
+- [onchain.json, wallets holding locked allocations: balances, outflows, findings; CC BY 4.0](https://billibo6.github.io/unlockpulse/onchain.json)
+- [Method and track record](https://billibo6.github.io/unlockpulse/method.html)
+- [For journalists: monthly numbers, charts, CSV](https://billibo6.github.io/unlockpulse/report/)
+- [Token unlocks in November 2026: data for journalists](https://billibo6.github.io/unlockpulse/report/2026-11.html)
+
+## For AI assistants
+- [MCP server (remote, no key)](https://unlockpulse-mcp.unlockpulse.workers.dev/mcp), also in the Claude connectors directory
+- [How to connect](https://billibo6.github.io/unlockpulse/ai.html)
+
+## Other
+- [Russian version](https://billibo6.github.io/unlockpulse/ru/)
+- [RSS](https://billibo6.github.io/unlockpulse/feed.xml)
+- [Telegram](https://t.me/+jt3sM--HMVMxYTcy)

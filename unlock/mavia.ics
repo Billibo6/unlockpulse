@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MAVIA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:mavia-20261106@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:MAVIA unlock: 4.3% of circulating (Small)
+DESCRIPTION:Heroes of Mavia (MAVIA) unlocks 4.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/mavia.html
+URL:https://billibo6.github.io/unlockpulse/unlock/mavia.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MAVIA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

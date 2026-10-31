@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ZETA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:zeta-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ZETA unlock: 2.7% of circulating (Small)
+DESCRIPTION:Zetachain (ZETA) unlocks 2.7% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/zeta.html
+URL:https://billibo6.github.io/unlockpulse/unlock/zeta.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ZETA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

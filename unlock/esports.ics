@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ESPORTS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:esports-20261120@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ESPORTS unlock: 1.6% of circulating (Small)
+DESCRIPTION:Yooldo (ESPORTS) unlocks 1.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/esports.html
+URL:https://billibo6.github.io/unlockpulse/unlock/esports.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ESPORTS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

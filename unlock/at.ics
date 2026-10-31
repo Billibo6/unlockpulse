@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:at-20261124@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:AT unlock: 6.2% of circulating (Medium)
+DESCRIPTION:APRO (AT) unlocks 6.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/at.html
+URL:https://billibo6.github.io/unlockpulse/unlock/at.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:AT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

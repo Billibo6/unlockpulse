@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:la-20261104@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:LA unlock: 7.8% of circulating (Medium)
+DESCRIPTION:Lagrange (LA) unlocks 7.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/la.html
+URL:https://billibo6.github.io/unlockpulse/unlock/la.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

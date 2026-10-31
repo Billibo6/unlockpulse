@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UTK token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:utk-20261201@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:UTK unlock: 8.2% of circulating (Medium)
+DESCRIPTION:Utrust (UTK) unlocks 8.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/utk.html
+URL:https://billibo6.github.io/unlockpulse/unlock/utk.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:UTK unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

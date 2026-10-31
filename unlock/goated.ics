@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GOATED token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:goated-20261027@unlockpulse
+DTSTAMP:20261027T084833Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:GOATED unlock: 20.2% of circulating (Strong)
+DESCRIPTION:GOAT Network (GOATED) unlocks 20.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/goated.html
+URL:https://billibo6.github.io/unlockpulse/unlock/goated.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:GOATED unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GODS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:gods-20261111@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:GODS unlock: 1.4% of circulating (Small)
+DESCRIPTION:Gods Unchained (GODS) unlocks 1.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/gods.html
+URL:https://billibo6.github.io/unlockpulse/unlock/gods.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:GODS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

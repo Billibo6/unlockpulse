@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OL token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ol-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:OL unlock: 18.7% of circulating (Strong)
+DESCRIPTION:Open Loot (OL) unlocks 18.7% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ol.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ol.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:OL unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

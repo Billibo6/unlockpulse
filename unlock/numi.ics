@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NUMI token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:numi-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:NUMI unlock: 6.6% of circulating (Medium)
+DESCRIPTION:NUMINE (NUMI) unlocks 6.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/numi.html
+URL:https://billibo6.github.io/unlockpulse/unlock/numi.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:NUMI unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

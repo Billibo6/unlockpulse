@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HYPER token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:hyper-20261122@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:HYPER unlock: 5.8% of circulating (Medium)
+DESCRIPTION:Hyperlane (HYPER) unlocks 5.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/hyper.html
+URL:https://billibo6.github.io/unlockpulse/unlock/hyper.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:HYPER unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

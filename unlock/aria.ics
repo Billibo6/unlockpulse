@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ARIA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:aria-20261121@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:ARIA unlock: 4.6% of circulating (Small)
+DESCRIPTION:AriaAI (ARIA) unlocks 4.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/aria.html
+URL:https://billibo6.github.io/unlockpulse/unlock/aria.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ARIA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

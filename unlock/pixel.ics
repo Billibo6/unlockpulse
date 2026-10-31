@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PIXEL token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:pixel-20261119@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:PIXEL unlock: 2.5% of circulating (Small)
+DESCRIPTION:Pixels (PIXEL) unlocks 2.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/pixel.html
+URL:https://billibo6.github.io/unlockpulse/unlock/pixel.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PIXEL unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CBRSB token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:cbrsb-20261109@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:CBRSB unlock: 6.8% of circulating (Medium)
+DESCRIPTION:Cbrs (CBRSB) unlocks 6.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/cbrsb.html
+URL:https://billibo6.github.io/unlockpulse/unlock/cbrsb.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:CBRSB unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

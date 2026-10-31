@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SEI token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:sei-20261115@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SEI unlock: 1.6% of circulating (Small)
+DESCRIPTION:Sei (SEI) unlocks 1.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/sei.html
+URL:https://billibo6.github.io/unlockpulse/unlock/sei.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SEI unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

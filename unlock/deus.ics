@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DEUS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:deus-20261127@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:DEUS unlock: 9.6% of circulating (Medium)
+DESCRIPTION:XMAQUINA (DEUS) unlocks 9.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/deus.html
+URL:https://billibo6.github.io/unlockpulse/unlock/deus.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:DEUS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

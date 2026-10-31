@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PRL token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:prl-20261125@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:PRL unlock: 5.9% of circulating (Medium)
+DESCRIPTION:Perle (PRL) unlocks 5.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/prl.html
+URL:https://billibo6.github.io/unlockpulse/unlock/prl.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PRL unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

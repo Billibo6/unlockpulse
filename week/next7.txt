@@ -1,0 +1,13 @@
+Token unlocks, next 7 days (share of circulating supply):
+
+Nov 1  KITE 43% · OL 19% · PYBOBO 16% · FOREST 13%
+Nov 2  AIO 11%
+Nov 4  CYC 31%
+
+Sizes, recipients, futures:
+https://billibo6.github.io/unlockpulse/week/
+
+Not financial advice.
+
+--- ALT ---
+Chart of token unlocks in the next 7 days, each sized as a percentage of circulating supply: Nov 1 KITE 43%; Nov 1 OL 19%; Nov 1 PYBOBO 16%; Nov 1 FOREST 13%; Nov 2 AIO 11%; Nov 4 CYC 31%. Source: Unlock Pulse.

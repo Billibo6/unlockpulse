@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MIRA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:mira-20261126@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:MIRA unlock: 6.2% of circulating (Medium)
+DESCRIPTION:Mira (MIRA) unlocks 6.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/mira.html
+URL:https://billibo6.github.io/unlockpulse/unlock/mira.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MIRA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

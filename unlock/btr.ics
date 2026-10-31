@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BTR token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:btr-20261127@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:BTR unlock: 5.3% of circulating (Medium)
+DESCRIPTION:Bitlayer (BTR) unlocks 5.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/btr.html
+URL:https://billibo6.github.io/unlockpulse/unlock/btr.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BTR unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

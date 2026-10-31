@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OWB token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:owb-20261121@unlockpulse
+DTSTAMP:20261030T143101Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:OWB unlock: 2.7% of circulating (Small)
+DESCRIPTION:OWB (OWB) unlocks 2.7% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/owb.html
+URL:https://billibo6.github.io/unlockpulse/unlock/owb.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:OWB unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

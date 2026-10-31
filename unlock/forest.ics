@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FOREST token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:forest-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:FOREST unlock: 13.2% of circulating (Strong)
+DESCRIPTION:Forest Protocol (FOREST) unlocks 13.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/forest.html
+URL:https://billibo6.github.io/unlockpulse/unlock/forest.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:FOREST unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

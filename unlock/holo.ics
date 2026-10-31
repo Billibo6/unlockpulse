@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HOLO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:holo-20261111@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:HOLO unlock: 4.2% of circulating (Small)
+DESCRIPTION:Holoworld AI (HOLO) unlocks 4.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/holo.html
+URL:https://billibo6.github.io/unlockpulse/unlock/holo.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:HOLO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

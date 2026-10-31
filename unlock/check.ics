@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CHECK token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:check-20261113@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:CHECK unlock: 6.6% of circulating (Medium)
+DESCRIPTION:Checkmate (CHECK) unlocks 6.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/check.html
+URL:https://billibo6.github.io/unlockpulse/unlock/check.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:CHECK unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

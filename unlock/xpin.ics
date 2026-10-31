@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:XPIN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:xpin-20261122@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:XPIN unlock: 6.9% of circulating (Medium)
+DESCRIPTION:XPIN Network (XPIN) unlocks 6.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/xpin.html
+URL:https://billibo6.github.io/unlockpulse/unlock/xpin.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:XPIN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

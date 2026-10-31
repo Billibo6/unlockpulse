@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IKA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ika-20261128@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:IKA unlock: 7.3% of circulating (Medium)
+DESCRIPTION:Ika (IKA) unlocks 7.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ika.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ika.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:IKA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

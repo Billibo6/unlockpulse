@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LUX token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:lux-20261130@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:LUX unlock: 63.1% of circulating (Strong)
+DESCRIPTION:Luxxcoin (LUX) unlocks 63.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/lux.html
+URL:https://billibo6.github.io/unlockpulse/unlock/lux.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LUX unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VANA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:vana-20261216@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:VANA unlock: 6.9% of circulating (Medium)
+DESCRIPTION:Vana (VANA) unlocks 6.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/vana.html
+URL:https://billibo6.github.io/unlockpulse/unlock/vana.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:VANA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:C token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:c-20261114@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:C unlock: 5.4% of circulating (Medium)
+DESCRIPTION:Chainbase (C) unlocks 5.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/c.html
+URL:https://billibo6.github.io/unlockpulse/unlock/c.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:C unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

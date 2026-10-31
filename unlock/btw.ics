@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BTW token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:btw-20261102@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:BTW unlock: 3.5% of circulating (Small)
+DESCRIPTION:Bitway (BTW) unlocks 3.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/btw.html
+URL:https://billibo6.github.io/unlockpulse/unlock/btw.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BTW unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

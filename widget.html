@@ -1,0 +1,88 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Unlock Pulse widget</title><style>
+:root{--bg:#f3f5f7;--surf:#fff;--surf2:#eaeef2;--line:#d9dfe6;--ink:#131a22;--mute:#5b6672;--acc:#0b63b5;--acc-ink:#fff;
+--strong:#d55e00;--medium:#e69f00;--small:#1b9e77;--on-status:#111;--shadow:0 1px 2px rgba(16,24,32,.06);--focus:#0b63b5}
+:root[data-theme=dark]{--bg:#0f1317;--surf:#161b21;--surf2:#1d242c;--line:#28313b;--ink:#e7ebef;--mute:#98a3ae;--acc:#5aa9ec;--acc-ink:#07233f;--shadow:none;--focus:#8ec5f5}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1317;--surf:#161b21;--surf2:#1d242c;--line:#28313b;--ink:#e7ebef;--mute:#98a3ae;--acc:#5aa9ec;--acc-ink:#07233f;--shadow:none;--focus:#8ec5f5}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-variant-numeric:tabular-nums;-webkit-text-size-adjust:100%}
+a{color:var(--acc);text-decoration-thickness:1px;text-underline-offset:2px}a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--acc);color:var(--acc-ink);padding:8px 12px;border-radius:6px;z-index:10}.skip:focus{left:8px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header.top{border-bottom:1px solid var(--line);background:var(--surf)}header.top .wrap{display:flex;align-items:center;gap:10px;min-height:60px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:var(--ink);text-decoration:none}.brand svg{width:28px;height:28px}
+nav.main{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}nav.main a{padding:10px 10px;color:var(--ink);text-decoration:none;border-radius:8px;min-height:44px;display:inline-flex;align-items:center}
+nav.main a:hover,nav.main a[aria-current]{background:var(--surf2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border-radius:10px;background:var(--acc);color:var(--acc-ink);text-decoration:none;border:0;font:inherit;font-weight:600;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.tbtn{min-width:44px;min-height:44px;border:1px solid var(--line);background:var(--surf);color:var(--ink);border-radius:10px;cursor:pointer;font:inherit;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 10px;font-weight:600}
+main{display:block}
+h1{font-size:clamp(26px,4.2vw,38px);line-height:1.2;margin:0 0 10px;letter-spacing:-.01em;max-width:26ch}
+h2{font-size:clamp(20px,2.6vw,24px);line-height:1.3;margin:0 0 6px;letter-spacing:-.005em}h3{font-size:17px;margin:0 0 6px}
+section{padding:34px 0}section+section{border-top:1px solid var(--line)}
+.lead{font-size:18px;color:var(--mute);max-width:62ch;margin:0 0 14px}.sub{color:var(--mute);max-width:70ch;margin:0 0 16px}
+.mute{color:var(--mute)}.small{font-size:14px}.tiny{font-size:13px}.crumbs{padding-top:14px}.crumbs a{color:var(--mute)}.trust{margin:10px 0 0}
+.summary{background:var(--surf);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:10px;padding:12px 16px;margin:18px 0;max-width:80ch}
+.note{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0;max-width:80ch;font-size:17px;line-height:1.6}.note .sig{color:var(--mute);font-size:14px;margin-top:8px}
+.upd{display:inline-flex;gap:8px;align-items:center;color:var(--mute);font-size:14px;flex-wrap:wrap}.upd.stale{color:var(--strong)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin:16px 0}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px}
+.card a.t{color:var(--ink);text-decoration:none;font-weight:700;font-size:20px}.card a.t:hover{text-decoration:underline}
+.card .big{font-size:34px;font-weight:700;line-height:1.1;letter-spacing:-.02em}.card .big small{font-size:15px;font-weight:500;color:var(--mute);letter-spacing:0}
+.card .when{color:var(--mute)}.card .more{margin-top:auto;padding-top:6px}
+.meter{position:relative;display:flex;height:12px;border-radius:6px;overflow:visible;margin:6px 0;background:transparent}
+.meter .m-base{background:var(--surf2);border:1px solid var(--line);border-right:0;border-radius:6px 0 0 6px;display:block}
+.meter .m-new{display:block;border-radius:0 6px 6px 0}.meter .m-new.strong{background:var(--strong)}.meter .m-new.medium{background:var(--medium)}.meter .m-new.small{background:var(--small)}
+.meter .m-tick{position:absolute;top:-4px;width:2px;height:20px;background:var(--ink);opacity:.6}.meter.lg{height:22px}.meter.lg .m-tick{height:32px;top:-5px}.meter.xs{height:8px;margin:0}.meter.xs .m-tick{height:12px;top:-2px;width:1px}
+.mlegend{display:flex;gap:16px;font-size:13px;color:var(--mute);flex-wrap:wrap}.mlegend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:5px}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-size:13px;font-weight:600;color:var(--on-status);white-space:nowrap}
+.pill.strong{background:var(--strong)}.pill.medium{background:var(--medium)}.pill.small{background:var(--small)}
+.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:13px;background:var(--surf2);color:var(--mute);white-space:nowrap}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0}
+.stat{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+.stat .n{font-size:40px;font-weight:700;letter-spacing:-.02em;line-height:1.1}.stat .n small{font-size:16px;color:var(--mute);font-weight:500}
+.dots{display:grid;grid-template-columns:repeat(20,1fr);gap:4px;margin:10px 0 6px;max-width:320px}.dots i{display:block;aspect-ratio:1;border-radius:50%;background:var(--surf2);border:1px solid var(--line)}
+.dots i.on.strong{background:var(--strong);border-color:var(--strong)}.dots i.on.small{background:var(--small);border-color:var(--small)}
+.means{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px 18px;max-width:80ch}.means p{margin:6px 0}
+.cta{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0}.cta p{margin:0;color:var(--mute);max-width:52ch}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 6px}.chips button{min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid var(--mute);background:var(--surf);color:var(--ink);font:inherit;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.links a{display:inline-flex;align-items:center;min-height:40px;padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surf);text-decoration:none;color:var(--ink)}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surf)}
+table{width:100%;border-collapse:collapse}caption{text-align:left;padding:10px 14px;color:var(--mute);font-size:14px}
+th,td{padding:10px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:middle}th{font-size:14px;color:var(--mute);font-weight:600;position:sticky;top:0;background:var(--surf);z-index:1}
+td.n,th.n{text-align:right;white-space:nowrap}td.t a{font-weight:700;color:var(--ink)}td.t .name{color:var(--mute);font-size:14px;display:block}
+tr.wk th{background:var(--surf2);color:var(--ink);font-weight:700;position:static}tr.chk td{opacity:.55}
+td.sup{min-width:160px}td.sup b{display:block;font-size:17px}
+body:not(.show-small):not(.f-fav) tr.small{display:none}body.f-strong tr:not(.strong):not(.wk){display:none}body.f-oneday tr.linear{display:none}body.f-perp tr.noperp{display:none}body.f-fav tr:not(.fav):not(.wk){display:none}
+.star{background:none;border:0;cursor:pointer;font-size:18px;line-height:1;color:var(--mute);padding:4px 6px 4px 0;min-width:28px;min-height:28px;vertical-align:-2px}.star[aria-pressed=true]{color:var(--medium)}
+.star.big{font-size:15px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-height:44px;color:var(--ink);background:var(--surf)}.star.big[aria-pressed=true]{border-color:var(--medium)}
+.empty-fav{display:none}body.f-fav .empty-fav.on{display:block}
+table.jr td,table.jr th{white-space:nowrap}.ok{color:var(--small);font-weight:700}.no{color:var(--strong);font-weight:700}
+tr.wk.hidden{display:none}body:not(.searching) tr.gc{display:none!important}tr.nq{display:none!important}
+.wkb{all:unset;cursor:pointer;display:flex;gap:6px;align-items:baseline;width:100%;min-height:36px}.wkb:focus-visible{outline:2px solid var(--focus);outline-offset:2px}.wkn{font-weight:400;font-size:14px}.wka{margin-left:auto}
+.qrow{display:flex;flex-direction:column;gap:4px;margin:10px 0 6px;max-width:360px}.qrow input{min-height:44px;padding:8px 12px;border:1px solid var(--mute);border-radius:10px;background:var(--surf);color:var(--ink);font:inherit}
+.noq{display:none}.noq.on{display:block}
+.q{display:inline-block;position:relative;vertical-align:middle}.qb{cursor:help;width:22px;height:22px;padding:0;border-radius:50%;border:1px solid var(--mute);background:transparent;color:var(--mute);font:inherit;font-size:12px;line-height:1;margin-left:4px}
+.qb[aria-expanded=true]{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.q .tip{position:absolute;z-index:5;left:0;top:calc(100% + 6px);width:max-content;max-width:min(300px,80vw);background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;font-weight:400;color:var(--ink);box-shadow:0 6px 24px rgba(0,0,0,.18);text-align:left;white-space:normal;line-height:1.45}.q .tip[hidden]{display:none}
+ol.steps{padding-left:20px;max-width:70ch}ol.steps li{margin:6px 0}
+.kv{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:14px 0}.kv div{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:12px}.kv b{display:block;font-size:22px;letter-spacing:-.01em}.kv span{color:var(--mute);font-size:13px}
+.prose{max-width:72ch}.prose p,.prose li{font-size:17px}.prose h2{margin-top:34px}
+dl.gl dt{font-weight:700;margin-top:18px}dl.gl dd{margin:4px 0 0;max-width:70ch}
+.rec{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}.rec div{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px}
+.prog{height:10px;background:var(--surf2);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin:6px 0}.prog i{display:block;height:100%;background:var(--mute)}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--mute);font-size:14px}footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}footer p{max-width:70ch}
+ul.hist{list-style:none;padding:0;margin:10px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}ul.hist li{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;display:flex;justify-content:space-between;gap:8px}
+ul.hist .dn{color:var(--strong);font-weight:700}ul.hist .up{color:var(--small);font-weight:700}
+details.faq{margin:10px 0;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:var(--surf)}details.faq summary{cursor:pointer;font-weight:600;min-height:28px}details.faq p{margin:8px 0 2px}
+@media(max-width:640px){
+ section{padding:26px 0}.card .big{font-size:30px}nav.main a{padding:8px 8px;font-size:15px}
+ .tblwrap{border:0;background:transparent;overflow:visible}table,tbody,td{display:block}thead{display:none}caption{display:block;padding:6px 0}
+ tr{display:grid;grid-template-columns:1fr auto;gap:2px 10px;background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:8px 0}
+ tr.wk{display:block;background:transparent;border:0;padding:14px 0 2px}tr.wk th{display:block;background:transparent;padding:0;font-size:15px}
+ td{border:0;padding:2px 0}td.t{grid-column:1;grid-row:1;font-size:18px}td.d{grid-column:2;grid-row:1;text-align:right;color:var(--mute);font-size:14px}
+ td.sup{grid-column:1/3;grid-row:2;padding:6px 0 2px}td.st{grid-column:1;grid-row:3}td.n.u{grid-column:2;grid-row:3;text-align:right}td.ty,td.fu{grid-column:1/3;font-size:13px;color:var(--mute)}
+ td[data-l]::before{content:attr(data-l) " ";color:var(--mute);font-size:13px}td.t::before,td.d::before,td.sup::before,td.st::before{content:none}
+}
+body{background:var(--surf)}.w{padding:12px 14px}.w h2{font-size:16px;margin:0 0 2px}.w ul{list-style:none;padding:0;margin:8px 0}.w li{display:grid;grid-template-columns:1fr auto auto;gap:2px 10px;padding:6px 0;border-top:1px solid var(--line);font-size:14px}.w li .meter{grid-column:1/4}.w .v{font-weight:700}.w .f{font-size:12px;color:var(--mute)}</style></head><body><div class="w"><h2>Next strong token unlocks</h2><div class="f">share of circulating supply · updated hourly</div><ul><li><a href="https://billibo6.github.io/unlockpulse/unlock/pybobo.html" target="_blank" rel="noopener"><b>PYBOBO</b></a><span>Nov 01</span><span class="v">16.1%</span><div class="meter xs" role="img" aria-label="Unlock adds 16.1% to circulating supply"><span class="m-base" style="width:86.15%"></span><span class="m-new strong" style="width:13.85%"></span><span class="m-tick" style="left:95.11%"></span></div></li><li><a href="https://billibo6.github.io/unlockpulse/unlock/ol.html" target="_blank" rel="noopener"><b>OL</b></a><span>Nov 01</span><span class="v">18.7%</span><div class="meter xs" role="img" aria-label="Unlock adds 18.7% to circulating supply"><span class="m-base" style="width:84.22%"></span><span class="m-new strong" style="width:15.78%"></span><span class="m-tick" style="left:92.98%"></span></div></li><li><a href="https://billibo6.github.io/unlockpulse/unlock/forest.html" target="_blank" rel="noopener"><b>FOREST</b></a><span>Nov 01</span><span class="v">13.2%</span><div class="meter xs" role="img" aria-label="Unlock adds 13.2% to circulating supply"><span class="m-base" style="width:88.32%"></span><span class="m-new strong" style="width:11.68%"></span><span class="m-tick" style="left:97.50%"></span></div></li><li><a href="https://billibo6.github.io/unlockpulse/unlock/fun.html" target="_blank" rel="noopener"><b>FUN</b></a><span>Nov 01</span><span class="v">12.3%</span><div class="meter xs" role="img" aria-label="Unlock adds 12.3% to circulating supply"><span class="m-base" style="width:89.05%"></span><span class="m-new strong" style="width:10.95%"></span><span class="m-tick" style="left:98.31%"></span></div></li><li><a href="https://billibo6.github.io/unlockpulse/unlock/kite.html" target="_blank" rel="noopener"><b>KITE</b></a><span>Nov 01</span><span class="v">43.2%</span><div class="meter xs" role="img" aria-label="Unlock adds 43.2% to circulating supply"><span class="m-base" style="width:69.81%"></span><span class="m-new strong" style="width:30.19%"></span><span class="m-tick" style="left:77.07%"></span></div></li><li><a href="https://billibo6.github.io/unlockpulse/unlock/aio.html" target="_blank" rel="noopener"><b>AIO</b></a><span>Nov 02</span><span class="v">11.5%</span><div class="meter xs" role="img" aria-label="Unlock adds 11.5% to circulating supply"><span class="m-base" style="width:89.71%"></span><span class="m-new strong" style="width:10.29%"></span><span class="m-tick" style="left:99.04%"></span></div></li><li><a href="https://billibo6.github.io/unlockpulse/unlock/btg.html" target="_blank" rel="noopener"><b>BTG</b></a><span>Nov 02</span><span class="v">129%</span><div class="meter xs" role="img" aria-label="Unlock adds 129% to circulating supply"><span class="m-base" style="width:43.63%"></span><span class="m-new strong" style="width:56.37%"></span><span class="m-tick" style="left:48.17%"></span></div></li><li><a href="https://billibo6.github.io/unlockpulse/unlock/cyc.html" target="_blank" rel="noopener"><b>CYC</b></a><span>Nov 04</span><span class="v">31.4%</span><div class="meter xs" role="img" aria-label="Unlock adds 31.4% to circulating supply"><span class="m-base" style="width:76.09%"></span><span class="m-new strong" style="width:23.91%"></span><span class="m-tick" style="left:84.01%"></span></div></li></ul><div class="f"><a href="https://billibo6.github.io/unlockpulse/" target="_blank" rel="noopener">Unlock Pulse</a> · <a href="https://t.me/+LNXs4N3tP0pkMGYy" target="_blank" rel="noopener">alerts in Telegram</a> · not financial advice</div></div></body></html>

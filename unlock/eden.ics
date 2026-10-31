@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EDEN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:eden-20261115@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:EDEN unlock: 3.5% of circulating (Small)
+DESCRIPTION:OpenEden (EDEN) unlocks 3.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/eden.html
+URL:https://billibo6.github.io/unlockpulse/unlock/eden.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:EDEN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

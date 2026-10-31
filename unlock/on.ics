@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ON token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:on-20261124@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:ON unlock: 6.7% of circulating (Medium)
+DESCRIPTION:Orochi Network (ON) unlocks 6.7% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/on.html
+URL:https://billibo6.github.io/unlockpulse/unlock/on.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ON unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

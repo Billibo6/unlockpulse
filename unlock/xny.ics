@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:XNY token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:xny-20261123@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:XNY unlock: 5.6% of circulating (Medium)
+DESCRIPTION:Codatta (XNY) unlocks 5.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/xny.html
+URL:https://billibo6.github.io/unlockpulse/unlock/xny.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:XNY unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

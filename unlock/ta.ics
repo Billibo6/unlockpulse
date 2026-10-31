@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ta-20261115@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TA unlock: 6.1% of circulating (Medium)
+DESCRIPTION:Trusta.AI (TA) unlocks 6.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ta.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ta.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:TA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

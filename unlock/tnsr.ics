@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TNSR token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:tnsr-20261108@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TNSR unlock: 3.4% of circulating (Small)
+DESCRIPTION:Tensor (TNSR) unlocks 3.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/tnsr.html
+URL:https://billibo6.github.io/unlockpulse/unlock/tnsr.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:TNSR unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

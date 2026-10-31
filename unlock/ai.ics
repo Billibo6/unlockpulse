@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ai-20261104@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:AI unlock: 2.7% of circulating (Small)
+DESCRIPTION:Sleepless AI (AI) unlocks 2.7% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ai.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ai.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:AI unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BEAT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:beat-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:BEAT unlock: 3.2% of circulating (Small)
+DESCRIPTION:Audiera (BEAT) unlocks 3.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/beat.html
+URL:https://billibo6.github.io/unlockpulse/unlock/beat.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BEAT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

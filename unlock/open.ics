@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OPEN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:open-20261108@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:OPEN unlock: 5.5% of circulating (Medium)
+DESCRIPTION:OpenLedger (OPEN) unlocks 5.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/open.html
+URL:https://billibo6.github.io/unlockpulse/unlock/open.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:OPEN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

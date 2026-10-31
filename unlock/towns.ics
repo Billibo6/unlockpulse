@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TOWNS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:towns-20261029@unlockpulse
+DTSTAMP:20261028T233101Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:TOWNS unlock: 5.0% of circulating (Medium)
+DESCRIPTION:Towns (TOWNS) unlocks 5.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/towns.html
+URL:https://billibo6.github.io/unlockpulse/unlock/towns.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:TOWNS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

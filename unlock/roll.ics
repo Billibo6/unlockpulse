@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ROLL token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:roll-20261116@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:ROLL unlock: 13.4% of circulating (Strong)
+DESCRIPTION:RollX (ROLL) unlocks 13.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/roll.html
+URL:https://billibo6.github.io/unlockpulse/unlock/roll.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ROLL unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BAS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:bas-20261119@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:BAS unlock: 10.2% of circulating (Medium)
+DESCRIPTION:BAS (BAS) unlocks 10.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/bas.html
+URL:https://billibo6.github.io/unlockpulse/unlock/bas.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BAS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

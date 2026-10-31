@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AVAIL token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:avail-20261123@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:AVAIL unlock: 6.0% of circulating (Medium)
+DESCRIPTION:Avail (AVAIL) unlocks 6.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/avail.html
+URL:https://billibo6.github.io/unlockpulse/unlock/avail.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:AVAIL unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

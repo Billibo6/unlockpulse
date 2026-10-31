@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FOGO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:fogo-20261126@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:FOGO unlock: 2.1% of circulating (Small)
+DESCRIPTION:Fogo (FOGO) unlocks 2.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/fogo.html
+URL:https://billibo6.github.io/unlockpulse/unlock/fogo.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:FOGO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

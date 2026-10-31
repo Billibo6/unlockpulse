@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:REPPO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:reppo-20261121@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:REPPO unlock: 62.8% of circulating (Strong)
+DESCRIPTION:Reppo (REPPO) unlocks 62.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/reppo.html
+URL:https://billibo6.github.io/unlockpulse/unlock/reppo.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:REPPO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FUN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:fun-20261101@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:FUN unlock: 12.3% of circulating (Strong)
+DESCRIPTION:Sport.Fun (FUN) unlocks 12.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/fun.html
+URL:https://billibo6.github.io/unlockpulse/unlock/fun.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:FUN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

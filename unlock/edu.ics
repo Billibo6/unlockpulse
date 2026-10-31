@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EDU token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:edu-20261128@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:EDU unlock: 2.0% of circulating (Small)
+DESCRIPTION:Open Campus (EDU) unlocks 2.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/edu.html
+URL:https://billibo6.github.io/unlockpulse/unlock/edu.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:EDU unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

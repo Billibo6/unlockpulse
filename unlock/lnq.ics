@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LNQ token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:lnq-20261126@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:LNQ unlock: 3.1% of circulating (Small)
+DESCRIPTION:LinqAI (LNQ) unlocks 3.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/lnq.html
+URL:https://billibo6.github.io/unlockpulse/unlock/lnq.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LNQ unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

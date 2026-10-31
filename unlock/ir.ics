@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IR token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ir-20261217@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:IR unlock: 12.0% of circulating (Strong)
+DESCRIPTION:Infrared Finance (IR) unlocks 12.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ir.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ir.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:IR unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

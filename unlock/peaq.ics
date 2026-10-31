@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PEAQ token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:peaq-20261112@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:PEAQ unlock: 2.1% of circulating (Small)
+DESCRIPTION:Peaq (PEAQ) unlocks 2.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/peaq.html
+URL:https://billibo6.github.io/unlockpulse/unlock/peaq.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PEAQ unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

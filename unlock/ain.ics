@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AIN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ain-20261105@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:AIN unlock: 5.6% of circulating (Medium)
+DESCRIPTION:Infinity Ground (AIN) unlocks 5.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ain.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ain.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:AIN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

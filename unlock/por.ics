@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:POR token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:por-20261230@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:POR unlock: 52.8% of circulating (Strong)
+DESCRIPTION:Portuma (POR) unlocks 52.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/por.html
+URL:https://billibo6.github.io/unlockpulse/unlock/por.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:POR unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

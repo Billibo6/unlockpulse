@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:STRK token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:strk-20261115@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:STRK unlock: 2.1% of circulating (Small)
+DESCRIPTION:Starknet (STRK) unlocks 2.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/strk.html
+URL:https://billibo6.github.io/unlockpulse/unlock/strk.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:STRK unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

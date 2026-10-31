@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BIGTIME token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:bigtime-20261203@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:BIGTIME unlock: 16.1% of circulating (Strong)
+DESCRIPTION:Big Time (BIGTIME) unlocks 16.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/bigtime.html
+URL:https://billibo6.github.io/unlockpulse/unlock/bigtime.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BIGTIME unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

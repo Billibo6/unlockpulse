@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AXIS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:axis-20261121@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:AXIS unlock: 12.2% of circulating (Strong)
+DESCRIPTION:Axis Robotics (AXIS) unlocks 12.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/axis.html
+URL:https://billibo6.github.io/unlockpulse/unlock/axis.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:AXIS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

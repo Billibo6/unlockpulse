@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:0G token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:0g-20261122@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:0G unlock: 4.1% of circulating (Small)
+DESCRIPTION:0G (0G) unlocks 4.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/0g.html
+URL:https://billibo6.github.io/unlockpulse/unlock/0g.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:0G unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

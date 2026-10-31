@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SAHARA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:sahara-20261127@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:SAHARA unlock: 3.6% of circulating (Small)
+DESCRIPTION:Sahara AI (SAHARA) unlocks 3.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/sahara.html
+URL:https://billibo6.github.io/unlockpulse/unlock/sahara.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SAHARA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

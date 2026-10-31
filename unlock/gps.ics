@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:GPS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:gps-20261116@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:GPS unlock: 2.8% of circulating (Small)
+DESCRIPTION:GoPlus Security (GPS) unlocks 2.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/gps.html
+URL:https://billibo6.github.io/unlockpulse/unlock/gps.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:GPS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UB token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ub-20261112@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:UB unlock: 12.5% of circulating (Strong)
+DESCRIPTION:Unibase (UB) unlocks 12.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ub.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ub.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:UB unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

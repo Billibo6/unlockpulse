@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HUMA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:huma-20261126@unlockpulse
+DTSTAMP:20261031T183101Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:HUMA unlock: 17.1% of circulating (Strong)
+DESCRIPTION:Huma Finance (HUMA) unlocks 17.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/huma.html
+URL:https://billibo6.github.io/unlockpulse/unlock/huma.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:HUMA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

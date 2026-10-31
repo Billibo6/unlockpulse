@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PIPE token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:pipe-20261026@unlockpulse
+DTSTAMP:20261025T233101Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:PIPE unlock: 11.7% of circulating (Strong)
+DESCRIPTION:Pipe Network (PIPE) unlocks 11.7% of circulating supply\, about $250K. Spread over the month. Details: https://billibo6.github.io/unlockpulse/unlock/pipe.html
+URL:https://billibo6.github.io/unlockpulse/unlock/pipe.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PIPE unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR
