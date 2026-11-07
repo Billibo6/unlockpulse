@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:QAIT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:qait-20261031@unlockpulse
+DTSTAMP:20261030T233101Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:QAIT unlock: 92.5% of circulating (Strong)
+DESCRIPTION:QAIT (QAIT) unlocks 92.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/qait.html
+URL:https://billibo6.github.io/unlockpulse/unlock/qait.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:QAIT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

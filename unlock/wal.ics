@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WAL token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:wal-20261201@unlockpulse
+DTSTAMP:20261107T143102Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:WAL unlock: 2.0% of circulating (Small)
+DESCRIPTION:Walrus (WAL) unlocks 2.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/wal.html
+URL:https://billibo6.github.io/unlockpulse/unlock/wal.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:WAL unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

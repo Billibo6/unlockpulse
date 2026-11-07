@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://billibo6.github.io/unlockpulse/sitemap.xml

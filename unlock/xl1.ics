@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:XL1 token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:xl1-20261116@unlockpulse
+DTSTAMP:20261107T143102Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:XL1 unlock: 19.4% of circulating (Strong)
+DESCRIPTION:XL1 (XL1) unlocks 19.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/xl1.html
+URL:https://billibo6.github.io/unlockpulse/unlock/xl1.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:XL1 unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

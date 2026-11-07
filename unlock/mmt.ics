@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MMT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:mmt-20261204@unlockpulse
+DTSTAMP:20261107T143102Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:MMT unlock: 6.0% of circulating (Medium)
+DESCRIPTION:Momentum (MMT) unlocks 6.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/mmt.html
+URL:https://billibo6.github.io/unlockpulse/unlock/mmt.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MMT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

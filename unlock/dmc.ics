@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DMC token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:dmc-20261121@unlockpulse
+DTSTAMP:20261107T143102Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:DMC unlock: 4.4% of circulating (Small)
+DESCRIPTION:DeLorean (DMC) unlocks 4.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/dmc.html
+URL:https://billibo6.github.io/unlockpulse/unlock/dmc.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:DMC unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

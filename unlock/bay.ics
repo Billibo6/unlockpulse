@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BAY token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:bay-20261030@unlockpulse
+DTSTAMP:20261029T233101Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:BAY unlock: 2.8% of circulating (Small)
+DESCRIPTION:Marina Protocol (BAY) unlocks 2.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/bay.html
+URL:https://billibo6.github.io/unlockpulse/unlock/bay.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BAY unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

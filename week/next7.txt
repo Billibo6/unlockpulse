@@ -1,0 +1,14 @@
+Token unlocks, next 7 days (share of circulating supply):
+
+Nov 10  JCT 12%
+Nov 11  ALLO 87%
+Nov 12  UB 12%
+Nov 14  PIEVERSE 29%
+
+Sizes, recipients, futures:
+https://billibo6.github.io/unlockpulse/week/
+
+Not financial advice.
+
+--- ALT ---
+Chart of token unlocks in the next 7 days, each sized as a percentage of circulating supply: Nov 10 JCT 12%; Nov 11 ALLO 87%; Nov 12 UB 12%; Nov 14 PIEVERSE 29%. Source: Unlock Pulse.
