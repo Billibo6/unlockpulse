@@ -1,0 +1,392 @@
+{
+ "generated": "2026-11-03",
+ "what": "Recipient selling habit per coin: how often the recipients of past unlocks sent tokens to exchanges, market makers or DEXes within 7 days. Reference only, not a trading signal.",
+ "method": {
+  "chain": "Ethereum only",
+  "period": [
+   "2025-11-05",
+   "2026-10-27"
+  ],
+  "events_total": 139,
+  "coins_total": 27,
+  "event": "tokens leaving the project's tracked vesting, team, investor or treasury wallets, at least 0.25% of supply in a day",
+  "sold": "an event counts as sold when at least 10% of it reached an exchange, market maker or DEX within 7 days, directly or through one deposit address",
+  "not_counted": "custodians (BitGo, Copper, Coinbase Prime) and bridges to other chains",
+  "label_rule": {
+   "min_events": 3,
+   "usually_sells": "sold in at least 60% of events",
+   "usually_holds": "sold in at most 20% of events",
+   "mixed": "in between"
+  },
+  "price_link": "none found: median move against BTC from the unlock day to day 7 was -2.0% after sold events (n 24) and -1.5% after held events (n 81)",
+  "blind_spots": "only public exchange and market maker labels; transfers through unlabeled addresses, OTC deals and other chains are not seen"
+ },
+ "coins": {
+  "ACU": {
+   "events": 3,
+   "events_sold": 2,
+   "share_of_events_sold": 0.67,
+   "median_sent_pct": 88.2,
+   "median_sent_when_sold_pct": 94.1,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Gate",
+    "MEXC",
+    "KuCoin"
+   ],
+   "first_event": "2026-01-15",
+   "last_event": "2026-08-13",
+   "label": "usually_sells"
+  },
+  "ALLO": {
+   "events": 1,
+   "events_sold": 1,
+   "share_of_events_sold": 1.0,
+   "median_sent_pct": 75.0,
+   "median_sent_when_sold_pct": 75.0,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "OKX",
+    "MEXC",
+    "Binance"
+   ],
+   "first_event": "2025-11-10",
+   "last_event": "2025-11-10",
+   "label": null
+  },
+  "AVAIL": {
+   "events": 4,
+   "events_sold": 1,
+   "share_of_events_sold": 0.25,
+   "median_sent_pct": 3.5,
+   "median_sent_when_sold_pct": 100.0,
+   "main_venue_type": "market maker",
+   "main_venues": [
+    "FalconX"
+   ],
+   "first_event": "2026-01-26",
+   "last_event": "2026-07-23",
+   "label": "mixed"
+  },
+  "BREV": {
+   "events": 1,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-01-06",
+   "last_event": "2026-01-06",
+   "label": null
+  },
+  "BTR": {
+   "events": 9,
+   "events_sold": 1,
+   "share_of_events_sold": 0.11,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": 12.7,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Bitget",
+    "MEXC"
+   ],
+   "first_event": "2026-02-28",
+   "last_event": "2026-10-27",
+   "label": "usually_holds"
+  },
+  "CHECK": {
+   "events": 15,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2025-11-10",
+   "last_event": "2026-09-16",
+   "label": "usually_holds"
+  },
+  "CYC": {
+   "events": 1,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-01-20",
+   "last_event": "2026-01-20",
+   "label": null
+  },
+  "EIGEN": {
+   "events": 15,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2025-11-19",
+   "last_event": "2026-09-30",
+   "label": "usually_holds"
+  },
+  "ERA": {
+   "events": 13,
+   "events_sold": 1,
+   "share_of_events_sold": 0.08,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": 74.9,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Binance",
+    "Bitget",
+    "Bybit"
+   ],
+   "first_event": "2025-11-05",
+   "last_event": "2026-10-24",
+   "label": "usually_holds"
+  },
+  "FF": {
+   "events": 2,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-06-03",
+   "last_event": "2026-10-01",
+   "label": null
+  },
+  "GRVT": {
+   "events": 2,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-08-31",
+   "last_event": "2026-10-15",
+   "label": null
+  },
+  "H": {
+   "events": 2,
+   "events_sold": 1,
+   "share_of_events_sold": 0.5,
+   "median_sent_pct": 50.0,
+   "median_sent_when_sold_pct": 100.0,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Bybit"
+   ],
+   "first_event": "2026-09-25",
+   "last_event": "2026-10-02",
+   "label": null
+  },
+  "HYPER": {
+   "events": 3,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-05-26",
+   "last_event": "2026-09-28",
+   "label": "usually_holds"
+  },
+  "JCT": {
+   "events": 1,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-05-16",
+   "last_event": "2026-05-16",
+   "label": null
+  },
+  "KITE": {
+   "events": 1,
+   "events_sold": 1,
+   "share_of_events_sold": 1.0,
+   "median_sent_pct": 100.0,
+   "median_sent_when_sold_pct": 100.0,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Binance"
+   ],
+   "first_event": "2026-07-29",
+   "last_event": "2026-07-29",
+   "label": null
+  },
+  "LA": {
+   "events": 12,
+   "events_sold": 3,
+   "share_of_events_sold": 0.25,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": 76.1,
+   "main_venue_type": "market maker",
+   "main_venues": [
+    "FalconX",
+    "Binance"
+   ],
+   "first_event": "2025-12-03",
+   "last_event": "2026-10-06",
+   "label": "mixed"
+  },
+  "MBG": {
+   "events": 4,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-01-23",
+   "last_event": "2026-07-22",
+   "label": "usually_holds"
+  },
+  "NEWT": {
+   "events": 10,
+   "events_sold": 9,
+   "share_of_events_sold": 0.9,
+   "median_sent_pct": 100.0,
+   "median_sent_when_sold_pct": 100.0,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Binance"
+   ],
+   "first_event": "2025-11-06",
+   "last_event": "2026-10-06",
+   "label": "usually_sells"
+  },
+  "OPEN": {
+   "events": 12,
+   "events_sold": 1,
+   "share_of_events_sold": 0.08,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": 42.5,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Gate",
+    "KuCoin"
+   ],
+   "first_event": "2025-11-08",
+   "last_event": "2026-10-08",
+   "label": "usually_holds"
+  },
+  "OPN": {
+   "events": 1,
+   "events_sold": 1,
+   "share_of_events_sold": 1.0,
+   "median_sent_pct": 98.0,
+   "median_sent_when_sold_pct": 98.0,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Binance",
+    "Uniswap"
+   ],
+   "first_event": "2026-03-05",
+   "last_event": "2026-03-05",
+   "label": null
+  },
+  "PIEVERSE": {
+   "events": 10,
+   "events_sold": 1,
+   "share_of_events_sold": 0.1,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": 52.8,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Bybit",
+    "Gate"
+   ],
+   "first_event": "2025-11-14",
+   "last_event": "2026-10-20",
+   "label": "usually_holds"
+  },
+  "RE": {
+   "events": 1,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-06-18",
+   "last_event": "2026-06-18",
+   "label": null
+  },
+  "SIGN": {
+   "events": 7,
+   "events_sold": 3,
+   "share_of_events_sold": 0.43,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": 100.0,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Binance"
+   ],
+   "first_event": "2025-12-18",
+   "last_event": "2026-08-27",
+   "label": "mixed"
+  },
+  "STO": {
+   "events": 2,
+   "events_sold": 2,
+   "share_of_events_sold": 1.0,
+   "median_sent_pct": 100.0,
+   "median_sent_when_sold_pct": 100.0,
+   "main_venue_type": "exchange",
+   "main_venues": [
+    "Bitget",
+    "Gate"
+   ],
+   "first_event": "2026-03-20",
+   "last_event": "2026-04-05",
+   "label": null
+  },
+  "YALA": {
+   "events": 5,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2025-11-05",
+   "last_event": "2026-09-10",
+   "label": "usually_holds"
+  },
+  "ZBT": {
+   "events": 1,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2026-05-26",
+   "last_event": "2026-05-26",
+   "label": null
+  },
+  "ZRO": {
+   "events": 1,
+   "events_sold": 0,
+   "share_of_events_sold": 0.0,
+   "median_sent_pct": 0.0,
+   "median_sent_when_sold_pct": null,
+   "main_venue_type": null,
+   "main_venues": [],
+   "first_event": "2025-11-11",
+   "last_event": "2025-11-11",
+   "label": null
+  }
+ },
+ "license": "CC BY 4.0, credit Unlock Pulse",
+ "method_page": "https://billibo6.github.io/unlockpulse/method.html#recipient-habit"
+}

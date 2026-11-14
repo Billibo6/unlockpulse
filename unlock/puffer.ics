@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PUFFER token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:puffer-20261214@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:PUFFER unlock: 3.8% of circulating (Small)
+DESCRIPTION:Puffer (PUFFER) unlocks 3.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/puffer.html
+URL:https://billibo6.github.io/unlockpulse/unlock/puffer.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PUFFER unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

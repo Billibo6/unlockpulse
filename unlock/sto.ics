@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:STO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:sto-20261203@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:STO unlock: 9.5% of circulating (Medium)
+DESCRIPTION:StakeStone (STO) unlocks 9.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/sto.html
+URL:https://billibo6.github.io/unlockpulse/unlock/sto.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:STO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

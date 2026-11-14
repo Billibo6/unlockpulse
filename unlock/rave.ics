@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RAVE token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:rave-20261212@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:RAVE unlock: 116.0% of circulating (Strong)
+DESCRIPTION:RaveDAO (RAVE) unlocks 116.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/rave.html
+URL:https://billibo6.github.io/unlockpulse/unlock/rave.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:RAVE unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ADI token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:adi-20261209@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:ADI unlock: 132.2% of circulating (Strong)
+DESCRIPTION:ADI (ADI) unlocks 132.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/adi.html
+URL:https://billibo6.github.io/unlockpulse/unlock/adi.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ADI unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

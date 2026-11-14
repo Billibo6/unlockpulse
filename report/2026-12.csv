@@ -1,0 +1,99 @@
+date_utc,symbol,name,strength,share_of_circulating_pct,share_of_total_supply_pct,value_usd,type,recipients,futures,page
+2026-12-01 00:00,MAGMA,Magma Finance,medium,7.79,2.389,7570243,linear,Ecosystem incentives; Team/Advisors/Contractors; Private Sale investor,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/magma.html
+2026-12-01 00:00,PYBOBO,Capybobo,small,4.72,1.939,770582,linear,Team; Ecosystem; Treasury,KuCoin,https://billibo6.github.io/unlockpulse/unlock/pybobo.html
+2026-12-01 00:00,UTK,Utrust,medium,8.25,5.812,685165,linear,Metabonding & Metastaking,—,https://billibo6.github.io/unlockpulse/unlock/utk.html
+2026-12-01 00:00,BOX,DeBox,small,2.23,1.134,224432,linear,Ecosystem Incentives; Team; Foundation,—,https://billibo6.github.io/unlockpulse/unlock/box.html
+2026-12-01 00:00,PLAY,PlaysOut,medium,6.91,1.514,522505,linear,PlaySolana Contributors; PlaySolana SuperHUB; PlaySolana Community; PlaySolana Investors; PlaySolana Treasury; PlaySolana Labs,Binance,https://billibo6.github.io/unlockpulse/unlock/play.html
+2026-12-01 00:00,YALA,Yala,medium,7.4,2.278,1411094,linear,Team; Foundation  / Treasury; Ecosystem  / Community; Marketing,Binance,https://billibo6.github.io/unlockpulse/unlock/yala.html
+2026-12-01 00:00,WAL,Walrus,small,2.03,1.083,1310273,linear,Early contributors; Community reserve; Subsidies; Mysten Labs,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/wal.html
+2026-12-01 00:00,TRUTH,Swarm Network,medium,7.57,1.578,2561228,linear,Agent Licenses 3; Seed; Community Reserve 2; DAO Treasury; Ecosystem & Incubation 2,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/truth.html
+2026-12-01 00:00,FOREST,Forest Protocol,strong,12.98,1.705,645343,linear,Investors; Ecosystem; Staking,—,https://billibo6.github.io/unlockpulse/unlock/forest.html
+2026-12-01 00:00,AGT,Alaya Governance Token,small,2.77,1.808,3102060,linear,Seed Round; Private Round; Ecosystem Fund; Team; Community Treasury; KOL Round 2,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/agt.html
+2026-12-01 00:00,FF,Falcon Finance,medium,5.73,2.031,18408158,linear,Ecosystems; Foundation; Team; Investors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/ff.html
+2026-12-01 00:00,FUN,Sport.Fun,strong,12.3,2.19,245466,linear,Community Incentives; Investors; Team; Reserve,Binance,https://billibo6.github.io/unlockpulse/unlock/fun.html
+2026-12-01 00:00,RLS,Rayls,strong,29.42,6.222,1061897,linear,Initial Investors; Team 1; Team 2; Foundation Treasury & Community,Binance,https://billibo6.github.io/unlockpulse/unlock/rls.html
+2026-12-01 00:00,KITE,Kite,small,3.84,1.104,14135572,linear,Ecosystem Growth; Modules,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/kite.html
+2026-12-01 01:35,P,Pike,small,2.24,1.67,0,cliff,,—,https://billibo6.github.io/unlockpulse/unlock/p.html
+2026-12-01 08:00,BEAT,Audiera,medium,6.07,2.21,1757729,linear,Community; Further Users Airdrop; Advisors & Angels; Foundation; Team,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/beat.html
+2026-12-01 20:27,ZETA,Zetachain,small,2.6,2.11,1276571,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/zeta.html
+2026-12-02 00:00,OPN,Opinion,medium,5.68,1.036,311704,linear,Foundation; Ecosystem,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/opn.html
+2026-12-02 00:00,AIO,OLAXBT,strong,11.47,2.641,839727,linear,Ecosystem incentives; Team/Advisors/Contractors; Private Sale investor; Treasury; Marketing/Operations,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/aio.html
+2026-12-02 00:00,Q,Quack AI,small,3.86,1.903,5048251,linear,Community; Investors  & Advisor; Core Team; Treasury,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/q.html
+2026-12-02 08:00,BTW,Bitway,small,3.49,1.016,72477457,linear,Community; Ecosystem,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/btw.html
+2026-12-02 13:00,2Z,DoubleZero,small,3.91,1.357,2238926,linear,Jump Crypto; Malbec Labs; Institutions; Team; Contributors; Builders,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/2z.html
+2026-12-03 00:00,MCH,Moonchain,medium,6.95,1.733,116641,linear,Team; IHO+ZK mining,—,https://billibo6.github.io/unlockpulse/unlock/mch.html
+2026-12-03 00:00,STO,StakeStone,medium,9.48,2.135,536351,linear,Investor; Team; Community; Foundation; Ecosystem and Treasury,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/sto.html
+2026-12-03 00:00,BIGTIME,Big Time,strong,16.09,12.0,2724600,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/bigtime.html
+2026-12-04 00:00,AI,Sleepless AI,small,2.66,1.706,269917,linear,Long-term Treasury Fund; Short-term Growth Fund; Investors; Team,Binance,https://billibo6.github.io/unlockpulse/unlock/ai.html
+2026-12-04 00:00,LA,Lagrange,medium,7.79,2.555,1091465,linear,Early Contributors; Community and Ecosystem; Series A; Seed Round,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/la.html
+2026-12-04 11:00,CYC,Cycle Network,medium,8.11,1.247,656818,linear,Investor; Team and Advisor; Staking & Share Security Rewards,—,https://billibo6.github.io/unlockpulse/unlock/cyc.html
+2026-12-04 20:00,MMT,Momentum,medium,6.03,1.23,1260259,linear,Community Growth; Early Backers; Ecosystem,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/mmt.html
+2026-12-05 05:00,VERONA,Verona,strong,16.24,7.526,1479596,linear,Strategic Backers; Ecosystem Incentives & Project Incubation; Protocol & Foundation; Community & Launch,—,https://billibo6.github.io/unlockpulse/unlock/verona.html
+2026-12-05 05:48,WET,Humidifi,strong,45.56,19.25,7522900,cliff,Foundation; Labs; Ecosystem,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/wet.html
+2026-12-05 09:00,AIN,Infinity Ground,medium,5.56,1.774,2011050,linear,Partners & Creators; Private Sales; Treasury; Community; Team; Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/ain.html
+2026-12-05 16:00,POWER,Power Protocol,strong,15.81,3.321,1851350,linear,Network Incentives; Investors; Team; Reserve; Ecosystem; Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/power.html
+2026-12-06 00:00,BERA,Berachain,small,3.63,2.351,1287377,linear,Private Investors; Early Contributors; Community; Ecosystem Incentives; Airdrops,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/bera.html
+2026-12-06 00:00,BREV,Brevis,medium,7.28,1.821,1112514,linear,Ecosystem Development; Community Incentives,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/brev.html
+2026-12-06 00:00,BULLA,Bulla,small,1.88,1.88,504003,linear,Hasbulla; Treasury; Community; Grants; Advisors,Binance,https://billibo6.github.io/unlockpulse/unlock/bulla.html
+2026-12-06 00:00,UAI,UnifAI Network,medium,6.71,1.603,512966,linear,Treasury; Protocol ; Team/Advisors; Community-2; Marketing/Operations-2,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/uai.html
+2026-12-06 08:00,MYX,MYX Finance,medium,6.21,2.599,1084114,linear,Ecosystem incentives2; Team/Advisors/Contractors; Private Sale investor,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/myx.html
+2026-12-06 12:00,F,SynFutures,small,3.79,1.997,421406,linear,Backers & Advisors; Foundation Treasury; Community; Core Contributors; Protocol Development,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/f.html
+2026-12-07 00:00,NAVX,NAVI Protocol,small,1.54,1.258,101550,linear,Ecosystem,—,https://billibo6.github.io/unlockpulse/unlock/navx.html
+2026-12-07 00:00,X,TaleX,medium,5.58,3.333,123642,linear,Investor; Team; Advisor; Ecosystem 2,—,https://billibo6.github.io/unlockpulse/unlock/x.html
+2026-12-07 00:00,SAGA,Saga,small,2.49,1.039,157494,linear,Core Contributors; Investors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/saga.html
+2026-12-07 00:00,JTO,Jito,small,2.08,1.147,3124152,linear,Core Contributors; Investors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/jto.html
+2026-12-07 10:00,ZTC,ZenChain,medium,7.45,1.978,222759,linear,Airdrops; Validator / Rewards Reserve; Ecosystem; Foundation / Treasury,—,https://billibo6.github.io/unlockpulse/unlock/ztc.html
+2026-12-08 00:00,TNSR,Tensor,small,3.36,2.257,398490,linear,Community; Core Contributors; Investors & Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/tnsr.html
+2026-12-08 05:48,STABLE,Stable,medium,5.0,1.39,34666600,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/stable.html
+2026-12-08 13:00,OPEN,OpenLedger,medium,5.37,1.866,1656307,linear,Community & Ecosystem; Investors; Team,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/open.html
+2026-12-09 00:00,MOVE,Movement,small,3.35,1.618,793513,linear,Early Backers; Ecosystem & Community; Early Contributors; Foundation,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/move.html
+2026-12-09 12:00,ADI,ADI,strong,132.16,1.144,88810036,linear,Community Fund; Treasury Reserves; Private Investors; Team; Partnerships,—,https://billibo6.github.io/unlockpulse/unlock/adi.html
+2026-12-10 00:00,FHE,Mind Network,small,2.5,1.371,190177,linear,Investors; Community; Team; Treasury; Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/fhe.html
+2026-12-10 00:00,JCT,Janction,strong,12.45,2.574,2618166,linear,Ecosystem; Foundation; Investors; Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/jct.html
+2026-12-10 00:01,ALLO,Allora,strong,13.05,2.617,3974442,linear,Network Emissions; Series A1 + A2; Team; Foundation; Ecosystem & Partnerships; Seed,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/allo.html
+2026-12-10 05:18,AGI,Delysium,small,1.28,1.15,0,cliff,,—,https://billibo6.github.io/unlockpulse/unlock/agi.html
+2026-12-10 12:00,RAIN,Rain,small,3.43,2.147,89966408,linear,"Marketing &
+Development Fund 2; Contributors,
+Advisors & Strategic
+Partners; Team; Private Sale investor 14",—,https://billibo6.github.io/unlockpulse/unlock/rain.html
+2026-12-11 00:00,GODS,Gods Unchained,small,1.39,1.257,119629,linear,Gods Unchained Reserve; Play to Earn Rewards; Community & Ecosystem Fund,—,https://billibo6.github.io/unlockpulse/unlock/gods.html
+2026-12-11 00:00,HOLO,Holoworld AI,small,3.84,1.627,1525150,linear,Foundation; Inverstor; Community Growth; Team; Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/holo.html
+2026-12-11 00:00,IDOL,MEET48,medium,9.57,2.087,1752418,linear,Community; Team; Ecosystem; Strategic Funding; Private Funding; Advisor,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/idol.html
+2026-12-12 00:00,RAVE,RaveDAO,strong,115.98,31.342,33069234,cliff,Community; Team; Ecosystem; Foundation / Grant & Impact Pool; Early Supporter,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/rave.html
+2026-12-12 00:00,WAI,World3,medium,6.37,2.22,167861,linear,AI Agent Ecosystem; Early Backer; Core Contributors,—,https://billibo6.github.io/unlockpulse/unlock/wai.html
+2026-12-12 00:00,UB,Unibase,strong,12.5,3.125,31470158,linear,Community; Treasury; Core Contributors and Advisors; Ecosystem,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/ub.html
+2026-12-12 00:00,LAVA,Lava Network,medium,7.6,2.102,325619,linear,Token holders Vesting; Foundation Vesting,—,https://billibo6.github.io/unlockpulse/unlock/lava.html
+2026-12-13 00:00,CHECK,Checkmate,medium,6.2,2.806,230721,linear,Player Rewards; Investors; Ecosystem & Treasury; Team; Advisors,—,https://billibo6.github.io/unlockpulse/unlock/check.html
+2026-12-13 00:00,SHELL,MyShell,small,3.42,1.622,424633,linear,Private Sale; Community Incentive; Team; Ecosystem and Treasury; Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/shell.html
+2026-12-14 00:00,C,Chainbase,medium,5.38,2.478,1614897,linear,Ecosystem & Community; Early Backers; Core Contributors; Worker Incentives,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/c.html
+2026-12-14 00:00,CLO,Yei Finance,medium,10.01,2.583,824017,linear,Ecosystem; Team; Treasury; Investors; Advisors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/clo.html
+2026-12-14 00:00,PIEVERSE,Pieverse,medium,7.2,2.163,39484828,linear,Team & Advisors; Community Growth; Ecosystem & Marketing,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/pieverse.html
+2026-12-14 07:12,AGT,Alaya Ai,small,1.7,1.19,2053940,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/agt.html
+2026-12-14 09:00,RTX,RateX,strong,27.29,4.774,845291,linear,Ecosystem & Community; Foundation & Treasury,—,https://billibo6.github.io/unlockpulse/unlock/rtx.html
+2026-12-14 09:58,STRK,Starknet Bridge,small,3.06,2.26,7684676,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/strk.html
+2026-12-14 12:00,PUFFER,Puffer,small,3.81,2.277,483850,linear,"Investors; Ecosystem, Community, and Others; Team and Advisors",Binance,https://billibo6.github.io/unlockpulse/unlock/puffer.html
+2026-12-15 00:52,CONX,Connex,small,1.36,1.32,0,cliff,,—,https://billibo6.github.io/unlockpulse/unlock/conx.html
+2026-12-16 00:00,THQ,Theoriq,strong,127.2,19.618,1623774,cliff,Investors; Core Contributors; Community; Treasury,—,https://billibo6.github.io/unlockpulse/unlock/thq.html
+2026-12-16 11:37,VANA,Vana,medium,6.94,4.41,3434508,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/vana.html
+2026-12-17 00:00,RE,Re,strong,26.66,4.255,9324917,linear,Ecosystem,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/re.html
+2026-12-17 00:00,IR,Infrared Finance,strong,15.11,6.22,0,cliff,Investors; Team; Build-a-Bera (Bera Foundation); Ecosystem; Treasury,Binance,https://billibo6.github.io/unlockpulse/unlock/ir.html
+2026-12-18 01:08,SOLV,Solv Protocol,small,2.62,1.6,652243,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/solv.html
+2026-12-19 14:39,KAITO,Kaito,small,3.43,1.76,3248960,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/kaito.html
+2026-12-20 02:31,ZRO,Layerzero,small,3.36,2.36,35690280,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/zro.html
+2026-12-20 04:10,LISTA,Lista Dao,small,4.34,3.16,1731174,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/lista.html
+2026-12-23 02:46,LMTS,Limitless Exchange,medium,5.08,2.025,0,cliff,Investors; Treasury; Team; Advisers,—,https://billibo6.github.io/unlockpulse/unlock/lmts.html
+2026-12-25 13:15,XPL,Plasma,small,2.79,1.39,6355080,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/xpl.html
+2026-12-25 20:42,H,Humanity,medium,5.82,2.665,4799665,cliff,Team; Investors; Ecosystem; Identity Verification Rewards; Human Institute Reserve; Foundation Treasury,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/h.html
+2026-12-26 06:56,ALT,Altlayer,small,2.25,1.76,846032,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/alt.html
+2026-12-27 01:23,RESOLV,Resolv,medium,5.87,3.357,405861,cliff,Ecosystem & Community; Investors; Team & Contributors,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/resolv.html
+2026-12-27 16:17,KNTQ,Kinetiq,small,4.26,1.29,0,cliff,,—,https://billibo6.github.io/unlockpulse/unlock/kntq.html
+2026-12-28 17:41,B2,B2 Buzz,small,3.1,1.51,1307344,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/b2.html
+2026-12-29 16:02,L3,Layer3,small,4.52,1.36,0,cliff,,—,https://billibo6.github.io/unlockpulse/unlock/l3.html
+2026-12-29 17:56,FF,Falcon Finance,small,3.41,1.28,11591680,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/ff.html
+2026-12-29 23:44,ZORA,Zora Protocol,small,2.78,1.67,748494,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/zora.html
+2026-12-30 15:00,POR,Portuma,strong,52.84,20.0,180265,cliff,Team/Advisors/Contractors,—,https://billibo6.github.io/unlockpulse/unlock/por.html
+2026-12-31 00:00,GOHOME,GOHOME,strong,50.01,2.5,17939131,cliff,"Marketing, DAO, Airdrops, CEXes",—,https://billibo6.github.io/unlockpulse/unlock/gohome.html
+2026-12-31 08:50,GUN,Gunz,medium,5.8,2.711,421479,cliff,Private B; Private A; Treasury; Advisors; GUNZ Foundation,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/gun.html
+2026-12-31 09:58,MAV,Maverick Protocol,small,3.2,1.82,250796,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/mav.html
+2026-12-31 10:13,EIGEN,Eigencloud,small,3.78,2.32,5026570,cliff,,"KuCoin, Binance",https://billibo6.github.io/unlockpulse/unlock/eigen.html
+2026-12-31 12:04,P,Pike,small,2.19,1.67,0,cliff,,—,https://billibo6.github.io/unlockpulse/unlock/p.html

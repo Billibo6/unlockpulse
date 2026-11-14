@@ -1,0 +1,14 @@
+Token unlocks, next 7 days (share of circulating supply):
+
+Nov 15  PORTO 30% · LIGHT 28% · SIGN 12%
+Nov 16  ROLL 13%
+Nov 17  APM 19% · ERA 16%
+Nov 18  BEE 14% · AIA 15%
+
+Sizes, recipients, futures:
+https://billibo6.github.io/unlockpulse/week/
+
+Not financial advice.
+
+--- ALT ---
+Chart of token unlocks in the next 7 days, each sized as a percentage of circulating supply: Nov 15 PORTO 30%; Nov 15 LIGHT 28%; Nov 15 SIGN 12%; Nov 16 ROLL 13%; Nov 17 APM 19%; Nov 17 ERA 16%; Nov 18 BEE 14%; Nov 18 AIA 15%. Source: Unlock Pulse.

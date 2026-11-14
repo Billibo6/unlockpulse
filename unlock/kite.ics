@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:KITE token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:kite-20261201@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:KITE unlock: 3.8% of circulating (Small)
+DESCRIPTION:Kite (KITE) unlocks 3.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/kite.html
+URL:https://billibo6.github.io/unlockpulse/unlock/kite.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:KITE unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

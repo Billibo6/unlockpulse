@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RLS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:rls-20261201@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:RLS unlock: 29.4% of circulating (Strong)
+DESCRIPTION:Rayls (RLS) unlocks 29.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/rls.html
+URL:https://billibo6.github.io/unlockpulse/unlock/rls.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:RLS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

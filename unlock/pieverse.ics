@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PIEVERSE token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:pieverse-20261214@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:PIEVERSE unlock: 7.2% of circulating (Medium)
+DESCRIPTION:Pieverse (PIEVERSE) unlocks 7.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/pieverse.html
+URL:https://billibo6.github.io/unlockpulse/unlock/pieverse.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PIEVERSE unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

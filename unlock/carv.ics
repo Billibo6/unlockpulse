@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CARV token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:carv-20270110@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:CARV unlock: 5.0% of circulating (Small)
+DESCRIPTION:Carv (CARV) unlocks 5.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/carv.html
+URL:https://billibo6.github.io/unlockpulse/unlock/carv.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:CARV unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

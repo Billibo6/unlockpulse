@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MOVE token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:move-20261209@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:MOVE unlock: 3.4% of circulating (Small)
+DESCRIPTION:Movement (MOVE) unlocks 3.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/move.html
+URL:https://billibo6.github.io/unlockpulse/unlock/move.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:MOVE unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

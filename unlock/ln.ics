@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ln-20261128@unlockpulse
+DTSTAMP:20261105T143101Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:LN unlock: 11.2% of circulating (Strong)
+DESCRIPTION:Lnfi Network (LN) unlocks 11.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ln.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ln.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

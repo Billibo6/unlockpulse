@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SMART token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:smart-20270101@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:SMART unlock: 3087.6% of circulating (Strong)
+DESCRIPTION:SMART (SMART) unlocks 3087.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/smart.html
+URL:https://billibo6.github.io/unlockpulse/unlock/smart.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SMART unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:XTER token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:xter-20270108@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:XTER unlock: 20.6% of circulating (Strong)
+DESCRIPTION:Xterio (XTER) unlocks 20.6% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/xter.html
+URL:https://billibo6.github.io/unlockpulse/unlock/xter.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:XTER unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

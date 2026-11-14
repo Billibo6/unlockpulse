@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PROS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:pros-20261128@unlockpulse
+DTSTAMP:20261114T183101Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:PROS unlock: 7.3% of circulating (Medium)
+DESCRIPTION:Pharos (PROS) unlocks 7.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/pros.html
+URL:https://billibo6.github.io/unlockpulse/unlock/pros.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PROS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

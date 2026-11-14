@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:HEMI token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:hemi-20261029@unlockpulse
+DTSTAMP:20261029T113908Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:HEMI unlock: 9.3% of circulating (Medium)
+DESCRIPTION:Hemi (HEMI) unlocks 9.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/hemi.html
+URL:https://billibo6.github.io/unlockpulse/unlock/hemi.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:HEMI unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

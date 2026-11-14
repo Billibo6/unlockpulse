@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BABY token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:baby-20261110@unlockpulse
+DTSTAMP:20261110T093101Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:BABY unlock: 4.8% of circulating (Small)
+DESCRIPTION:Babylon (BABY) unlocks 4.8% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/baby.html
+URL:https://billibo6.github.io/unlockpulse/unlock/baby.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BABY unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR
