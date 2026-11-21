@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SOON token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:soon-20261114@unlockpulse
+DTSTAMP:20261114T173845Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:SOON unlock: 3.1% of circulating (Small)
+DESCRIPTION:SOON (SOON) unlocks 3.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/soon.html
+URL:https://billibo6.github.io/unlockpulse/unlock/soon.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SOON unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SLC token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:slc-20261120@unlockpulse
+DTSTAMP:20261120T093101Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:SLC unlock: 4.4% of circulating (Small)
+DESCRIPTION:Silencio (SLC) unlocks 4.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/slc.html
+URL:https://billibo6.github.io/unlockpulse/unlock/slc.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SLC unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

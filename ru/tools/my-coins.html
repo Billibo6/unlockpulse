@@ -1,0 +1,464 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'unsafe-inline' https://mc.yandex.ru https://yastatic.net; img-src 'self' data: https://mc.yandex.ru https://mc.yandex.com https://mc.yandex.md; connect-src 'self' https://mc.yandex.ru https://mc.yandex.com https://mc.yandex.md wss://mc.yandex.ru; frame-src 'self' https://mc.yandex.ru https://mc.yandex.com https://mc.yandex.md; object-src 'none'; base-uri 'none'; form-action 'none'"><meta name="color-scheme" content="light dark"><meta name="referrer" content="strict-origin-when-cross-origin"><title>Проверить мои монеты: разлоки токенов по вашему списку | Unlock Pulse</title><meta name="description" content="Вставьте тикеры и увидите, у каких ваших монет разлок в ближайшие 60 дней, насколько он сильный, и скачаете файл календаря. Бесплатно, без регистрации, работает в браузере."><link rel="canonical" href="https://billibo6.github.io/unlockpulse/ru/tools/my-coins.html"><link rel="alternate" hreflang="en" href="https://billibo6.github.io/unlockpulse/tools/my-coins.html"><link rel="alternate" hreflang="ru" href="https://billibo6.github.io/unlockpulse/ru/tools/my-coins.html"><link rel="alternate" hreflang="x-default" href="https://billibo6.github.io/unlockpulse/tools/my-coins.html"><meta property="og:type" content="website"><meta property="og:site_name" content="Unlock Pulse"><meta property="og:title" content="Проверить мои монеты: разлоки токенов по вашему списку | Unlock Pulse"><meta property="og:locale" content="ru_RU"><meta property="og:description" content="Вставьте тикеры и увидите, у каких ваших монет разлок в ближайшие 60 дней, насколько он сильный, и скачаете файл календаря. Бесплатно, без регистрации, работает в браузере."><meta property="og:url" content="https://billibo6.github.io/unlockpulse/ru/tools/my-coins.html"><meta property="og:image" content="https://billibo6.github.io/unlockpulse/og_ru.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Проверить мои монеты: разлоки токенов по вашему списку | Unlock Pulse"><meta name="twitter:description" content="Вставьте тикеры и увидите, у каких ваших монет разлок в ближайшие 60 дней, насколько он сильный, и скачаете файл календаря. Бесплатно, без регистрации, работает в браузере."><meta name="twitter:image" content="https://billibo6.github.io/unlockpulse/og_ru.png"><link rel="icon" href="https://billibo6.github.io/unlockpulse/favicon.ico" sizes="any"><link rel="icon" href="https://billibo6.github.io/unlockpulse/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="https://billibo6.github.io/unlockpulse/apple-touch-icon.png"><link rel="manifest" href="https://billibo6.github.io/unlockpulse/site.webmanifest"><meta name="theme-color" content="#0f1317" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#f3f5f7" media="(prefers-color-scheme: light)"><link rel="preload" href="https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="alternate" type="application/json" href="https://billibo6.github.io/unlockpulse/data.json" title="Unlock Pulse data"><link rel="alternate" type="application/rss+xml" href="https://billibo6.github.io/unlockpulse/ru/feed.xml" title="Unlock Pulse"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Проверить мои монеты | Unlock Pulse", "url": "https://billibo6.github.io/unlockpulse/ru/tools/my-coins.html", "description": "Вставьте тикеры и увидите, у каких ваших монет разлок в ближайшие 60 дней, насколько он сильный, и скачаете файл календаря. Бесплатно, без регистрации, работает в браузере.", "inLanguage": "ru", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><style>
+:root{--bg:#f3f5f7;--surf:#fff;--surf2:#eaeef2;--line:#d9dfe6;--ink:#131a22;--mute:#5b6672;--acc:#0b63b5;--acc-ink:#fff;
+--strong:#d55e00;--medium:#e69f00;--small:#1b9e77;--strong-t:#a84800;--medium-t:#8a5c00;--small-t:#0f7054;--on-status:#111;--shadow:0 1px 2px rgba(16,24,32,.06);--focus:#0b63b5}
+:root[data-theme=dark]{--bg:#0f1317;--surf:#161b21;--surf2:#1d242c;--line:#28313b;--ink:#e7ebef;--mute:#98a3ae;--acc:#5aa9ec;--acc-ink:#07233f;--shadow:none;--focus:#8ec5f5;--strong-t:#e0691a;--medium-t:#e69f00;--small-t:#1b9e77}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1317;--surf:#161b21;--surf2:#1d242c;--line:#28313b;--ink:#e7ebef;--mute:#98a3ae;--acc:#5aa9ec;--acc-ink:#07233f;--shadow:none;--focus:#8ec5f5;--strong-t:#e0691a;--medium-t:#e69f00;--small-t:#1b9e77}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-variant-numeric:tabular-nums;-webkit-text-size-adjust:100%}
+a{color:var(--acc);text-decoration-thickness:1px;text-underline-offset:2px}a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--acc);color:var(--acc-ink);padding:8px 12px;border-radius:6px;z-index:10}.skip:focus{left:8px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header.top{border-bottom:1px solid var(--line);background:var(--surf)}header.top .wrap{display:flex;align-items:center;gap:10px;min-height:60px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:var(--ink);text-decoration:none}.brand svg{width:28px;height:28px}
+nav.main{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}nav.main a{padding:10px 10px;color:var(--ink);text-decoration:none;border-radius:8px;min-height:44px;display:inline-flex;align-items:center}
+nav.main a:hover,nav.main a[aria-current]{background:var(--surf2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border-radius:10px;background:var(--acc);color:var(--acc-ink);text-decoration:none;border:0;font:inherit;font-weight:600;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.tbtn{min-width:44px;min-height:44px;border:1px solid var(--line);background:var(--surf);color:var(--ink);border-radius:10px;cursor:pointer;font:inherit;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 10px;font-weight:600}
+main{display:block}
+h1{font-size:clamp(26px,4.2vw,38px);line-height:1.2;margin:0 0 10px;letter-spacing:-.01em;max-width:26ch}
+h2{font-size:clamp(20px,2.6vw,24px);line-height:1.3;margin:0 0 6px;letter-spacing:-.005em}h3{font-size:17px;margin:0 0 6px}
+section{padding:34px 0}section+section{border-top:1px solid var(--line)}
+.lead{font-size:18px;color:var(--mute);max-width:62ch;margin:0 0 14px}.sub{color:var(--mute);max-width:70ch;margin:0 0 16px}
+.mute{color:var(--mute)}.small{font-size:14px}.tiny{font-size:13px}.crumbs{padding-top:14px}.crumbs a{color:var(--mute)}.trust{margin:10px 0 0}
+.summary{background:var(--surf);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:10px;padding:12px 16px;margin:18px 0;max-width:80ch}
+.note{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0;max-width:80ch;font-size:17px;line-height:1.6}.note .sig{color:var(--mute);font-size:14px;margin-top:8px}
+.upd{display:inline-flex;gap:8px;align-items:center;color:var(--mute);font-size:14px;flex-wrap:wrap}.upd.stale{color:var(--strong-t)}.upd.stale time::before{background:#e0a100}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin:16px 0}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px}
+.card a.t{color:var(--ink);text-decoration:none;font-weight:700;font-size:20px}.card a.t:hover{text-decoration:underline}
+.card .big{font-size:34px;font-weight:700;line-height:1.1;letter-spacing:-.02em}.card .big small{font-size:15px;font-weight:500;color:var(--mute);letter-spacing:0}
+.card .when{color:var(--mute)}.card .more{margin-top:auto;padding-top:6px}
+.meter{position:relative;display:flex;height:12px;border-radius:6px;overflow:visible;margin:6px 0;background:transparent}
+.meter .m-base{background:var(--surf2);border:1px solid var(--line);border-right:0;border-radius:6px 0 0 6px;display:block}
+.meter .m-new{display:block;border-radius:0 6px 6px 0}.meter .m-new.strong{background:var(--strong)}.meter .m-new.medium{background:var(--medium)}.meter .m-new.small{background:var(--small)}
+.meter .m-tick{position:absolute;top:-4px;width:2px;height:20px;background:var(--ink);opacity:.6}.meter.lg{height:22px}.meter.lg .m-tick{height:32px;top:-5px}.meter.xs{height:8px;margin:0}.meter.xs .m-tick{height:12px;top:-2px;width:1px}
+.mlegend{display:flex;gap:16px;font-size:13px;color:var(--mute);flex-wrap:wrap}.mlegend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:5px}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-size:13px;font-weight:600;color:var(--on-status);white-space:nowrap}
+.pill.strong{background:var(--strong)}.pill.medium{background:var(--medium)}.pill.small{background:var(--small)}
+.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:13px;background:var(--surf2);color:var(--mute);white-space:nowrap}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0}
+.stat{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+.stat .n{font-size:40px;font-weight:700;letter-spacing:-.02em;line-height:1.1}.stat .n small{font-size:16px;color:var(--mute);font-weight:500}
+.dots{display:grid;grid-template-columns:repeat(20,1fr);gap:4px;margin:10px 0 6px;max-width:320px}.dots i{display:block;aspect-ratio:1;border-radius:50%;background:var(--surf2);border:1px solid var(--line)}
+.dots i.on.strong{background:var(--strong);border-color:var(--strong)}.dots i.on.small{background:var(--small);border-color:var(--small)}
+.means{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px 18px;max-width:80ch}.means p{margin:6px 0}
+.cta{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0}.cta p{margin:0;color:var(--mute);max-width:52ch}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 6px}.chips button{min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid var(--mute);background:var(--surf);color:var(--ink);font:inherit;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.links a{display:inline-flex;align-items:center;min-height:40px;padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surf);text-decoration:none;color:var(--ink)}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surf)}
+table{width:100%;border-collapse:collapse}caption{text-align:left;padding:10px 14px;color:var(--mute);font-size:14px}
+th,td{padding:10px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:middle}th{font-size:14px;color:var(--mute);font-weight:600;position:sticky;top:0;background:var(--surf);z-index:1}
+td.n,th.n{text-align:right;white-space:nowrap}td.t a{font-weight:700;color:var(--ink)}td.t .name{color:var(--mute);font-size:14px;display:block}
+tr.wk th{background:var(--surf2);color:var(--ink);font-weight:700;position:static}tr.chk td{opacity:.55}
+td.sup{min-width:160px}td.sup b{display:block;font-size:17px}
+body:not(.show-small):not(.f-fav):not(.searching) tr.small{display:none}body.f-strong tr:not(.strong):not(.wk){display:none}body.f-oneday tr.linear{display:none}body.f-perp tr.noperp{display:none}body.f-fav tr:not(.fav):not(.wk){display:none}
+.star{background:none;border:0;cursor:pointer;font-size:18px;line-height:1;color:var(--mute);padding:4px 6px 4px 0;min-width:28px;min-height:28px;vertical-align:-2px}.star[aria-pressed=true]{color:var(--medium-t)}
+.star.big{font-size:15px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-height:44px;color:var(--ink);background:var(--surf)}.star.big[aria-pressed=true]{border-color:var(--medium)}
+.empty-fav{display:none}body.f-fav .empty-fav.on{display:block}
+table.jr td,table.jr th{white-space:nowrap}.ok{color:var(--small-t);font-weight:700}.no{color:var(--strong-t);font-weight:700}
+tr.wk.hidden{display:none}body:not(.searching) tr.gc{display:none!important}tr.nq{display:none!important}
+.wkb{all:unset;cursor:pointer;display:flex;gap:6px;align-items:baseline;width:100%;min-height:36px}.wkb:focus-visible{outline:2px solid var(--focus);outline-offset:2px}.wkn{font-weight:400;font-size:14px}.wka{margin-left:auto}
+.qrow{display:flex;flex-direction:column;gap:4px;margin:10px 0 6px;max-width:360px}.qrow input{min-height:44px;padding:8px 12px;border:1px solid var(--mute);border-radius:10px;background:var(--surf);color:var(--ink);font:inherit}
+.noq{display:none}.noq.on{display:block}
+.q{display:inline-block;position:relative;vertical-align:middle}.qb{cursor:help;width:24px;height:24px;padding:0;border-radius:50%;border:1px solid var(--mute);background:transparent;color:var(--mute);font:inherit;font-size:12px;line-height:1;margin-left:4px}
+.qb[aria-expanded=true]{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.q .tip{position:absolute;z-index:5;left:0;top:calc(100% + 6px);width:max-content;max-width:min(300px,80vw);background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;font-weight:400;color:var(--ink);box-shadow:0 6px 24px rgba(0,0,0,.18);text-align:left;white-space:normal;line-height:1.45}.q .tip[hidden]{display:none}
+ol.steps{padding-left:20px;max-width:70ch}ol.steps li{margin:6px 0}
+.kv{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:14px 0}.kv div{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:12px}.kv b{display:block;font-size:22px;letter-spacing:-.01em}.kv span{color:var(--mute);font-size:13px}
+.prose{max-width:72ch}.prose p,.prose li{font-size:17px}.prose h2{margin-top:34px}
+dl.gl dt{font-weight:700;margin-top:18px}dl.gl dd{margin:4px 0 0;max-width:70ch}
+.rec{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}.rec div{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px}
+.prog{height:10px;background:var(--surf2);border:1px solid var(--line);border-radius:5px;overflow:hidden;margin:6px 0}.prog i{display:block;height:100%;background:var(--mute)}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--mute);font-size:14px}footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}footer p{max-width:70ch}
+ul.hist{list-style:none;padding:0;margin:10px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}ul.hist li{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;display:flex;justify-content:space-between;gap:8px}
+ul.hist .dn{color:var(--strong-t);font-weight:700}ul.hist .up{color:var(--small-t);font-weight:700}
+details.faq{margin:10px 0;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:var(--surf)}details.faq summary{cursor:pointer;font-weight:600;min-height:28px}details.faq p{margin:8px 0 2px}
+@media(max-width:640px){
+ section{padding:26px 0}.card .big{font-size:30px}nav.main a{padding:8px 8px;font-size:15px}
+ .tblwrap{border:0;background:transparent;overflow:visible}table,tbody,td{display:block}thead{display:none}caption{display:block;padding:6px 0}
+ tr{display:grid;grid-template-columns:1fr auto;gap:2px 10px;background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:8px 0}
+ tr.wk{display:block;background:transparent;border:0;padding:14px 0 2px}tr.wk th{display:block;background:transparent;padding:0;font-size:15px}
+ td{border:0;padding:2px 0}td.t{grid-column:1;grid-row:1;font-size:18px}td.d{grid-column:2;grid-row:1;text-align:right;color:var(--mute);font-size:14px}
+ td.sup{grid-column:1/3;grid-row:2;padding:6px 0 2px}td.st{grid-column:1;grid-row:3}td.n.u{grid-column:2;grid-row:3;text-align:right}td.ty,td.fu{grid-column:1/3;font-size:13px;color:var(--mute)}
+ td[data-l]::before{content:attr(data-l) " ";color:var(--mute);font-size:13px}td.t::before,td.d::before,td.sup::before,td.st::before{content:none}
+ .tblwrap tbody tr:not(.wk){content-visibility:auto;contain-intrinsic-size:auto 150px}
+}
+:root{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}@media(prefers-color-scheme:dark){:root:not([data-theme=light]){color-scheme:dark}}
+.hero{--strong-t:#e0691a;--medium-t:#e69f00;--small-t:#1b9e77}
+td.t a{display:inline-block;min-width:24px;min-height:24px}
+footer .cols>div:last-child p a{display:inline-block;min-width:24px;padding:3px 0}
+.qtop{max-width:420px;margin:14px 0 2px}.qtop>span{display:flex;gap:8px}.qtop input{flex:1;min-width:0}.qtop .btn{min-height:44px}
+p.upd{display:block}
+main>section.wrap:first-child,main>style:first-child+section.wrap.hb{padding-top:28px}
+pre,.prose code{overflow-wrap:anywhere}
+.meter{overflow-x:clip}
+</style><style id="up-design">@font-face{font-family:"Plex";font-weight:400;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Plex";font-weight:600;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Plex";font-weight:700;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Plex";font-weight:400;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-cyrillic-400-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Plex";font-weight:600;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-cyrillic-600-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Plex";font-weight:700;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-cyrillic-700-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Plex Cond";font-weight:700;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-condensed-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+2212}
+@font-face{font-family:"Plex";font-weight:400;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Plex";font-weight:600;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Plex";font-weight:700;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-latin-ext-700-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Plex Cond";font-weight:700;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-sans-condensed-latin-ext-700-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+html:lang(ko) body{word-break:keep-all}
+:root{--bg:#f3f6f4;--surf:#fff;--surf2:#e8eeeb;--line:#d3dcd7;--ink:#0f1619;--mute:#53615b;--acc:#0b7a5c;--acc-ink:#fff;--focus:#0b7a5c;--shadow:0 1px 2px rgba(15,22,25,.05);
+--mon:#0f1318;--mon-ink:#eef3f0;--mon-mute:#9aa8a2;--mon-line:#27313a;--pulse:#6fd3a5;--live:#1fa971}
+:root[data-theme=dark]{--bg:#0b0f12;--surf:#13191d;--surf2:#1a2227;--line:#25303a;--ink:#e6ece9;--mute:#96a39d;--acc:#6fd3a5;--acc-ink:#06281c;--focus:#8fe0bb;--shadow:none;--mon:#0f1318;--mon-line:#2a353f}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0b0f12;--surf:#13191d;--surf2:#1a2227;--line:#25303a;--ink:#e6ece9;--mute:#96a39d;--acc:#6fd3a5;--acc-ink:#06281c;--focus:#8fe0bb;--shadow:none;--mon:#0f1318;--mon-line:#2a353f}}
+body{font-family:"Plex",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{letter-spacing:-.015em}
+header.top{background:var(--surf)}header.top .wrap>.btn,header.top nav.main a,header.top .brand{white-space:nowrap}header.top .brand{flex:none}@media(min-width:1041px){header.top .wrap{flex-wrap:nowrap;gap:8px}header.top nav.main{flex-wrap:nowrap}html[lang=ru] header.top nav.main a{padding:10px 7px;font-size:15px}html[lang=ru] header.top .wrap>.btn{padding:8px 12px;font-size:15px}}@media(max-width:1040px){header.top nav.main{order:5;flex:1 0 100%;flex-wrap:nowrap;overflow-x:auto;margin-left:0;scrollbar-width:none;-webkit-overflow-scrolling:touch}header.top nav.main::-webkit-scrollbar{display:none}header.top .wrap>.tbtn:first-of-type{margin-left:auto}}@media(max-width:640px){header.top .wrap{gap:6px}header.top .wrap>.btn{padding:8px 10px;font-size:13px}header.top .brand{font-size:17px;gap:7px}header.top nav.main a[href$="/calendar/"]{order:-1}header.top nav.main{padding-right:28px;-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}}@media(max-width:420px){header.top #theme{display:none}}
+.brand{font-size:19px;letter-spacing:-.01em}
+nav.main a[aria-current]{background:transparent;box-shadow:inset 0 -2px 0 var(--acc);border-radius:0}
+.btn{border-radius:8px}
+/* панель монитора */
+.hero{--ink:var(--mon-ink);--mute:var(--mon-mute);--line:var(--mon-line);--surf:var(--mon);--surf2:#1a2128;--acc:var(--pulse);--acc-ink:#06281c;--focus:var(--pulse);
+color:var(--mon-ink);background-color:var(--mon);
+background-image:linear-gradient(rgba(111,211,165,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(111,211,165,.055) 1px,transparent 1px);
+background-size:28px 28px;background-position:-1px -1px;padding:30px 0 24px;border-bottom:1px solid #000}
+section.hero+section{border-top:0}
+.hero h1{font-family:"Plex Cond","Plex",system-ui,sans-serif;font-weight:700;font-size:clamp(34px,5.2vw,58px);line-height:1.02;letter-spacing:-.01em;max-width:21ch;margin:12px 0 12px}
+:lang(ru) .hero h1{font-family:"Plex",system-ui,sans-serif;font-size:clamp(30px,4.6vw,50px);line-height:1.08;letter-spacing:-.025em;max-width:20ch}
+.hero .lead{color:var(--mon-mute);font-size:18px;max-width:60ch}
+.hero .upd{color:var(--mon-mute);font-size:14px}
+.hero .upd time{color:var(--mon-ink);font-weight:600;display:inline-flex;align-items:center;gap:8px}
+.hero .upd time::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--live);box-shadow:0 0 0 0 rgba(31,169,113,.55);animation:up-live 2.4s ease-out 3}
+@keyframes up-live{0%{box-shadow:0 0 0 0 rgba(31,169,113,.55)}70%{box-shadow:0 0 0 9px rgba(229,84,75,0)}100%{box-shadow:0 0 0 0 rgba(229,84,75,0)}}
+@media(prefers-reduced-motion:reduce){.hero .upd time::before{animation:none}}
+.hero .tl-fig{margin:16px 0 0!important;border-top:1px solid var(--mon-line);padding-top:6px}
+.hero .tl-d{fill:var(--mon-mute)}.hero .tl-s{fill:var(--mon-ink)}
+.hero .tl-strong,.hero .tl-medium{stroke:var(--mon)}
+.hero .tl-cap{color:var(--mon-mute)}
+.hero .trust{color:var(--mon-mute);border-left:2px solid var(--pulse);padding:2px 0 2px 12px;max-width:90ch}
+.hero .trust b{color:var(--mon-ink)}
+.hero a{color:var(--pulse)}
+.hero :focus-visible{outline-color:var(--pulse)}
+/* спокойная нижняя часть */
+.summary{border-left-color:var(--acc);border-radius:8px}
+.card,.stat,.tblwrap,.note,.means,.cta{border-radius:10px}
+.card .big,.stat .n{font-family:"Plex Cond","Plex",system-ui,sans-serif;letter-spacing:-.01em}
+.chips button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.up-ru-hint{background:var(--surf2)!important;color:var(--ink)!important;font-weight:500!important;font-size:14px;padding:8px 16px!important;border-bottom:1px solid var(--line)}
+.tyb{display:inline-block;padding:1px 8px;border-radius:999px;font-size:.88em;line-height:1.5;white-space:nowrap}.tyb.cliff{background:var(--ink);color:var(--bg);font-weight:600}.tyb:not(.cliff){border:1px dashed var(--mute);color:var(--mute)}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:16px 0 0}.hero .hero-cta .btn{background:var(--pulse);color:#06281c}.hero .hero-cta .btn:hover{filter:brightness(1.08)}.hero .hero-cta span{color:var(--mon-mute);font-size:14px}
+
+@font-face{font-family:"Plex Serif";font-weight:400;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-serif-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+2212}
+@font-face{font-family:"Plex Serif";font-weight:400;font-style:italic;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-serif-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+2212}
+@font-face{font-family:"Plex Serif";font-weight:500;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-serif-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+2212}
+@font-face{font-family:"Plex Serif";font-weight:400;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-serif-cyrillic-400-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Plex Serif";font-weight:400;font-style:italic;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-serif-cyrillic-400-italic.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Plex Serif";font-weight:500;font-display:swap;src:url(https://billibo6.github.io/unlockpulse/fonts/ibm-plex-serif-cyrillic-500-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+:root{--jn-sea:#0d5f52;--jn-sea-ink:#f1faf7;--jn-yolk:#f4cf5d;--jn-mark:#fff1a8}
+:root[data-theme=dark]{--jn-sea:#0f3f37;--jn-mark:#4a4212}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--jn-sea:#0f3f37;--jn-mark:#4a4212}}
+.jn-intro{padding-top:26px;padding-bottom:6px}
+section.jn-intro,section.jn-intro+section,section.jn-cover+section,section.jn-row3+section{border-top:0}
+.jn-intro h1{font-size:clamp(17px,2vw,20px);font-weight:400;line-height:1.45;max-width:62ch;margin:0;letter-spacing:0;color:var(--mute)}
+.jn-intro h1 b{color:var(--ink);font-weight:600}
+.jn-try{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:14px 0 4px}.jn-try span{color:var(--mute);font-size:15px}
+.jn-cover{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:18px;padding-top:14px;padding-bottom:18px}
+.jn-lead{background:var(--jn-sea);color:var(--jn-sea-ink);border-radius:16px;padding:clamp(22px,3.2vw,40px);display:flex;flex-direction:column}
+.jn-lead .jn-kind{color:var(--jn-sea-ink);opacity:.85;margin:0 0 12px}
+.jn-lead h2{font-family:"Plex Cond","Plex",system-ui,sans-serif;font-weight:700;font-size:clamp(32px,4.7vw,58px);line-height:1.03;letter-spacing:-.01em;margin:0 0 16px;text-wrap:balance}
+:lang(ru) .jn-lead h2{font-family:"Plex",system-ui,sans-serif;font-size:clamp(28px,4vw,46px);line-height:1.1;letter-spacing:-.02em}
+.jn-lead h2 a{color:inherit;text-decoration:none}
+.jn-lead h2 a:hover{text-decoration:underline}
+.jn-lead .jn-dek{font-size:18px;line-height:1.5;max-width:56ch;margin:0 0 26px}
+.jn-lead .jn-read{align-self:flex-start;margin-top:26px;background:var(--jn-sea-ink);color:#0d5f52;padding:10px 18px;border-radius:999px;font-weight:600;text-decoration:none}
+.jn-lead :focus-visible{outline-color:var(--jn-yolk)}
+.jn-vs{display:grid;gap:14px;margin-top:auto}
+.jn-vs .jn-who{display:flex;justify-content:space-between;gap:16px;font-size:15px;margin-bottom:6px}
+.jn-vs .jn-who b{font-weight:600}
+.jn-vs .jn-bar{height:20px;background:rgba(255,255,255,.2);border-radius:4px;overflow:hidden}
+.jn-vs .jn-bar span{display:block;height:100%;background:var(--jn-yolk);border-radius:4px}
+.jn-vs small{display:block;font-size:13.5px;opacity:.85;margin-top:4px}
+.jn-art .jn-vs{margin:26px 0;padding:20px;border-radius:12px;background:var(--jn-sea);color:var(--jn-sea-ink);font-family:"Plex",system-ui,sans-serif}
+.jn-side{display:grid;gap:18px}
+.jn-box{background:var(--surf);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.jn-box h2{font-size:20px;margin:0 0 8px}
+.jn-box p{margin:0;color:var(--mute);font-size:15px}
+.jn-score{display:flex;align-items:baseline;gap:10px;margin:2px 0 10px}
+:lang(ru) .jn-score strong{font-size:42px}
+.jn-score strong{white-space:nowrap;font-family:"Plex Cond","Plex",system-ui,sans-serif;font-size:52px;line-height:1;letter-spacing:-.01em}
+.jn-dots{display:flex;flex-wrap:wrap;gap:5px;margin:2px 0 12px;max-width:290px}
+.jn-dots i{width:17px;height:17px;border-radius:50%;border:2px solid var(--strong);display:block}
+.jn-dots i.h{background:var(--strong)}
+.jn-more{display:inline-block;margin-top:10px;font-weight:600}
+.jn-week{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin:12px 0 4px}
+.jn-week div{text-align:center;font-size:13px;color:var(--mute)}
+.jn-week span{display:flex;flex-direction:column-reverse;align-items:center;gap:3px;height:100px;margin-bottom:4px}
+.jn-week span i{width:11px;height:11px;border-radius:50%;background:var(--medium);display:block}
+.jn-week span i.s{background:var(--strong)}
+.jn-week .now{color:var(--ink);font-weight:600}
+.jn-row3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding-bottom:30px}
+.jn-story{background:var(--surf);border:1px solid var(--line);border-radius:16px;padding:20px 22px 22px}
+.jn-kind{font-size:14px;color:var(--mute);margin:0 0 6px}
+.jn-story h3{font-size:22px;line-height:1.18;margin:0 0 8px}
+.jn-story h3 a{color:var(--ink);text-decoration:none}
+.jn-story h3 a:hover{text-decoration:underline}
+.jn-story p{margin:0;color:var(--mute);font-size:15px}
+.jn-who-box{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:28px;align-items:center;border-top:1px solid var(--line);padding-top:26px;padding-bottom:40px}
+.jn-who-box h2{margin:0 0 8px;font-size:22px}
+.jn-who-box p{margin:0 0 8px;max-width:62ch}
+.jn-acts{display:grid;gap:8px}
+.jn-acts .btn{text-align:center;justify-content:center}
+.jn-ghost{background:transparent!important;color:var(--acc)!important;box-shadow:inset 0 0 0 1.5px var(--acc)}
+/* страница текста */
+.jn-page{display:grid;grid-template-columns:minmax(0,40rem) minmax(15rem,19rem);gap:clamp(28px,6vw,84px);padding-top:34px;padding-bottom:40px}
+.jn-art header p{margin:0 0 14px;color:var(--mute);font-size:15px}
+.jn-art h1{font-family:"Plex Serif",Georgia,serif;font-weight:500;font-size:clamp(31px,4.4vw,50px);line-height:1.12;letter-spacing:-.012em;margin:0 0 26px;text-wrap:balance}
+.jn-prose{font-family:"Plex Serif",Georgia,serif;font-size:19px;line-height:1.68}
+.jn-prose p{margin:0 0 1.15em}
+.jn-prose h2{font-family:"Plex",system-ui,sans-serif;font-size:21px;margin:1.6em 0 .6em}
+.jn-prose ul,.jn-prose ol{padding-left:1.2em;margin:0 0 1.15em}
+.jn-prose li{margin:0 0 .5em}
+.jn-prose mark{background:var(--jn-mark);color:inherit;padding:0 .12em}
+.jn-prose table{font-family:"Plex",system-ui,sans-serif;font-size:15px;border-collapse:collapse;width:100%;margin:0 0 1.4em}
+.jn-prose th,.jn-prose td{text-align:left;padding:8px 10px 8px 0;border-bottom:1px solid var(--line);vertical-align:top}
+@media(max-width:640px){
+.jn-prose table{display:table;line-height:1.4}
+.jn-prose thead{display:table-header-group}
+.jn-prose tbody{display:table-row-group}
+.jn-prose tr{display:table-row;background:none;border:0;border-radius:0;padding:0;margin:0}
+.jn-prose th,.jn-prose td{display:table-cell;padding:8px 8px 8px 0}
+}
+.jn-tally{margin:28px 0 30px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-family:"Plex",system-ui,sans-serif}
+.jn-tally figcaption{font-size:15px;color:var(--mute);line-height:1.45}
+.jn-tally figcaption b{color:var(--ink)}
+.jn-sign{font-style:italic;margin-top:1.6em}
+.jn-sign span{display:block;font-style:normal;font-family:"Plex",system-ui,sans-serif;font-size:15px;color:var(--mute);margin-top:4px}
+.jn-src{font-family:"Plex",system-ui,sans-serif;font-size:15px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px;margin-top:2em}
+.jn-rail{font-size:15px;align-self:start;position:sticky;top:20px}
+.jn-rail h2{font-size:17px;margin:0 0 4px}
+.jn-rail .jn-sum{color:var(--mute);margin:0 0 14px}
+.jn-rail ul{list-style:none;margin:0;padding:0}
+.jn-rail li{padding:10px 0;border-top:1px solid var(--line)}
+.jn-rail li div.jn-r{display:flex;justify-content:space-between;gap:10px}
+.jn-rail li a{color:var(--ink);font-weight:600;text-decoration:none}
+.jn-rail li a:hover{text-decoration:underline}
+.jn-rail li span{color:var(--mute);white-space:nowrap}
+.jn-rail .meter{margin-top:7px}
+.jn-key{color:var(--mute);font-size:13.5px;margin:10px 0 16px;line-height:1.4}
+.jn-list{padding-top:30px;padding-bottom:44px;max-width:52rem}
+.jn-list h1{font-size:clamp(28px,4vw,40px);margin:0 0 8px}
+.jn-list .lead{color:var(--mute);margin:0 0 26px;max-width:60ch}
+.jn-item{border-top:1px solid var(--line);padding:18px 0}
+.jn-item h2{font-family:"Plex Serif",Georgia,serif;font-weight:500;font-size:26px;line-height:1.2;margin:0 0 6px}
+.jn-item h2 a{color:var(--ink);text-decoration:none}
+.jn-item h2 a:hover{text-decoration:underline}
+.jn-item p{margin:0;color:var(--mute)}
+@media(max-width:900px){.jn-cover,.jn-row3,.jn-who-box,.jn-page{grid-template-columns:1fr}.jn-rail{position:static;border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--surf)}.jn-rail li:nth-child(n+4){display:none}}
+</style><style>.ck{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--surf);color:var(--ink);border-top:1px solid var(--line);padding:8px 16px;box-shadow:0 -2px 12px rgba(0,0,0,.08);font-size:13px;line-height:1.4;display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}.ck p{margin:0;max-width:640px}.ck .ckb{display:flex;gap:8px}.ck .ckb .btn{padding:5px 14px;min-height:0;font-size:13px}@media print{.ck{display:none}}</style><script>(function(){var K='up-consent',B='https://billibo6.github.io/unlockpulse';
+function g(){try{return localStorage.getItem(K)}catch(e){return null}}
+function st(v){try{localStorage.setItem(K,v)}catch(e){}}
+function ld(id,o){(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,'script','https://mc.yandex.ru/metrika/tag.js?id='+id,'ym');window.ym(id,'init',o);}
+function go(){if(window.upYM)return;window.upYM=1;var o={ssr:true,clickmap:true,ecommerce:'dataLayer',referrer:document.referrer,url:location.href,accurateTrackBounce:true,trackLinks:true};ld(113797143,o);var o2={},k;for(k in o)o2[k]=o[k];o2.webvisor=false;ld(113811158,o2);}
+function wipe(){document.cookie.split(';').forEach(function(c){var n=c.split('=')[0].replace(/^\s+/,'');if(/^_ym/.test(n)){var x='=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';document.cookie=n+x;document.cookie=n+x+';domain='+location.hostname;document.cookie=n+x+';domain=.'+location.hostname;}});}
+if(g()==='yes')go();
+function bar(){var ru=document.documentElement.lang==='ru',was=g(),d=document.createElement('div');d.className='ck';d.setAttribute('role','region');d.setAttribute('aria-label',ru?'Согласие на cookie':'Cookie consent');
+d.innerHTML='<p>'+(ru?'Мы считаем посещения через Яндекс.Метрику. Она ставит cookie только с вашего согласия. <a href="'+B+'/ru/privacy.html">Подробнее</a>':'We count visits with Yandex Metrica. It sets cookies only if you allow it. <a href="'+B+'/privacy.html">Privacy policy</a>')+'</p><div class="ckb"><button type="button" class="btn ghost" data-v="yes">'+(ru?'Разрешить':'Allow')+'</button><button type="button" class="btn ghost" data-v="no">'+(ru?'Отказаться':'Decline')+'</button></div>';
+d.addEventListener('click',function(e){var b=e.target.closest?e.target.closest('button[data-v]'):null;if(!b)return;var v=b.getAttribute('data-v');st(v);d.parentNode.removeChild(d);if(v==='yes')go();else if(was==='yes'){wipe();location.reload();}});document.body.appendChild(d);var f=d.querySelector('button');if(was&&f)f.focus();}
+document.addEventListener('DOMContentLoaded',function(){if(!g())bar();document.addEventListener('click',function(e){var a=e.target.closest?e.target.closest('[data-cookie]'):null;if(!a)return;e.preventDefault();var c=document.querySelector('.ck');if(c)c.parentNode.removeChild(c);bar();});});
+})();</script></head><body><a class="skip" href="#main">К содержимому</a><header class="top"><div class="wrap"><a class="brand" href="https://billibo6.github.io/unlockpulse/ru/" translate="no"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0f1115"/><polyline points="8,38 22,38 28,20 36,48 42,30 56,30" fill="none" stroke="#7fd1a8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="20" r="4.2" fill="#e2504c"/></svg>Unlock Pulse</a><nav class="main" aria-label="Site"><a href="https://billibo6.github.io/unlockpulse/ru/letters/">Письма</a><a href="https://billibo6.github.io/unlockpulse/ru/investigations/">Расследования</a><a href="https://billibo6.github.io/unlockpulse/ru/journal.html">Журнал</a><a href="https://billibo6.github.io/unlockpulse/ru/lab/">Лаборатория</a><a href="https://billibo6.github.io/unlockpulse/ru/calendar/">Календарь</a><a href="https://billibo6.github.io/unlockpulse/ru/method.html">Метод</a></nav><a class="tbtn" href="https://billibo6.github.io/unlockpulse/tools/my-coins.html" hreflang="en" lang="en" title="English version">EN</a><button class="tbtn" id="theme" type="button" aria-label="Светлая или тёмная тема" title="Светлая или тёмная тема">◐</button><a class="btn" href="https://t.me/razloki">Канал «Разлоки»</a></div></header><main id="main"><style>
+.mc{padding-top:30px;padding-bottom:44px}
+.mc h1{max-width:30ch}
+.mc-form{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:18px;margin:18px 0 8px;max-width:52rem}
+.mc-form label{display:block;font-weight:600;margin:0 0 4px}
+.mc-hint{color:var(--mute);font-size:14px;margin:0 0 10px}
+.mc-form textarea{display:block;width:100%;min-height:92px;resize:vertical;padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-size:17px;line-height:1.45;letter-spacing:.02em}
+.mc-acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;align-items:center}
+.mc-acts .btn[disabled]{opacity:.5;cursor:not-allowed;filter:none}
+.mc-note{color:var(--mute);font-size:14px;margin:12px 0 0;max-width:70ch}
+.mc-sum{font-size:clamp(19px,2.6vw,24px);line-height:1.35;font-weight:600;margin:26px 0 6px;max-width:44ch;min-height:1.35em}
+.mc-sub{color:var(--mute);margin:0 0 6px;max-width:70ch}
+.mc-link{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:14px 0 0;background:var(--surf);max-width:52rem}
+.mc-link p{margin:0 0 8px}
+.mc-list{list-style:none;margin:18px 0 0;padding:0;max-width:52rem}
+.mc-row{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:4px 18px;padding:14px 0;border-top:1px solid var(--line)}
+.mc-when b{display:block;font-size:17px}
+.mc-when span{color:var(--mute);font-size:14px}
+.mc-what a{font-weight:700;font-size:18px;color:var(--ink)}
+.mc-name{color:var(--mute);margin-left:6px;overflow-wrap:anywhere}
+.mc-facts{margin:4px 0 2px;font-size:15px;overflow-wrap:anywhere}
+.mc-tag{font-weight:700}
+.mc-tag.s-strong{color:var(--strong)}.mc-tag.s-medium{color:var(--medium)}.mc-tag.s-small{color:var(--small)}.mc-tag.s-check{color:var(--mute)}
+.mc-row .meter{max-width:26rem}
+.mc-key{color:var(--mute);font-size:13.5px;margin:12px 0 0;max-width:70ch}
+.mc-miss{border-top:1px solid var(--line);margin:22px 0 0;padding-top:16px;max-width:52rem}
+.mc-miss h2,.mc-share h2{font-size:18px;margin:0 0 6px}
+.mc-miss ul{list-style:none;margin:0 0 8px;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.mc-miss li{border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-weight:600;background:var(--surf)}
+.mc-share{border-top:1px solid var(--line);margin:22px 0 0;padding-top:16px;max-width:52rem}
+.mc-url{display:flex;gap:8px;flex-wrap:wrap}
+.mc-url input{flex:1 1 16rem;min-width:0;min-height:44px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-size:15px}
+.mc-more{margin:26px 0 0;color:var(--mute);max-width:70ch}
+.mc [hidden]{display:none!important}
+@media(max-width:520px){.mc-row{grid-template-columns:1fr;gap:2px}.mc-when{display:flex;gap:10px;align-items:baseline}.mc-when b{display:inline}.mc-acts .btn{flex:1 1 100%}.mc-form{padding:14px}.mc-url .btn{flex:1 1 100%}}
+</style><section class="wrap mc"><h1>Проверить мои монеты</h1><p class="lead">Вставьте тикеры монет, которые держите. Покажем все запланированные разлоки по ним на 60 дней вперёд и силу каждого: сколько новых монет выходит относительно тех, что уже торгуются.</p><div class="mc-form"><label for="mc-in">Ваши тикеры</label><p class="mc-hint" id="mc-hint">Через запятую, пробел или с новой строки. Пример: SUI, ARB, ZRO. Ctrl+Enter запускает проверку.</p><textarea id="mc-in" rows="3" aria-describedby="mc-hint" placeholder="SUI, ARB, ZRO" autocomplete="off" autocapitalize="characters" autocorrect="off" spellcheck="false" translate="no"></textarea><div class="mc-acts"><button type="button" class="btn" id="mc-check" disabled>Проверить монеты</button><button type="button" class="btn ghost" id="mc-example" disabled>Показать пример</button><button type="button" class="btn ghost" id="mc-clear" disabled>Очистить</button></div><p class="mc-note">Без регистрации и без сервера: проверка идёт в вашем браузере, список хранится только на этом устройстве. Это тот же список, что звёздочки в календаре.</p></div><noscript><p class="mc-sub">Инструменту нужен JavaScript. Без него пользуйтесь полным календарём. <a href="https://billibo6.github.io/unlockpulse/ru/calendar/">https://billibo6.github.io/unlockpulse/ru/calendar/</a></p></noscript><p class="mc-sum" id="mc-sum" role="status" aria-live="polite" aria-atomic="true">Загружаем календарь…</p><p class="mc-sub" id="mc-sub"></p><p class="mc-sub" id="mc-msg" role="status" aria-live="polite"></p><div class="mc-link" id="mc-linkbox" hidden><p>Этот список открыт по ссылке. Ваш сохранённый список не изменён.</p><button type="button" class="btn ghost" id="mc-save">Сохранить этот список на устройстве</button></div><ul class="mc-list" id="mc-list" hidden></ul><p class="mc-key" id="mc-key" hidden>Полоса: серое — монеты, которые уже торгуются, цветной кусок — новые монеты, засечка — с неё начинается «Сильный» (10,4 % обращения).</p><div class="mc-miss" id="mc-miss" hidden><h2>В наших данных нет разлоков в ближайшие 60 дней</h2><ul id="mc-miss-ul"></ul><p class="mc-sub">Либо по этим тикерам на 60 дней ничего не запланировано, либо монеты нет в наших источниках. Проверьте и написание тикера.</p></div><div class="mc-share" id="mc-share" hidden><h2>Сохранить список или поделиться</h2><p><button type="button" class="btn" id="mc-ics">Скачать мой календарь (.ics)</button></p><p class="mc-sub">Открывается в Google Календаре, Apple Календаре и Outlook. К каждому разлоку — напоминания за 7 дней и за день. Файл — снимок на сейчас: после изменения списка скачайте его заново.</p><label for="mc-url" class="mc-sub" style="display:block">Ссылка на этот список</label><div class="mc-url"><input id="mc-url" type="text" readonly translate="no"><button type="button" class="btn ghost" id="mc-copy">Скопировать ссылку</button></div></div><p class="mc-more">Откройте <a href="https://billibo6.github.io/unlockpulse/ru/calendar/">полный календарь</a> или прочитайте, <a href="https://billibo6.github.io/unlockpulse/ru/method.html">как считается сила</a>. Это рыночные данные, не инвестиционный совет.</p></section><script>
+(function(){
+'use strict';
+var C={"lang":"ru","data":"https://billibo6.github.io/unlockpulse/data.json","page":"https://billibo6.github.io/unlockpulse/ru/tools/my-coins.html","unlock":"https://billibo6.github.io/unlockpulse/ru/unlock/","strong":0.104,"medium":0.05,"days":60,"gen":"2026-11-21T21:31:02+00:00","t":{"ready":"Вставьте тикеры выше и нажмите «Проверить монеты».","empty":"Тикеры не распознаны. Введите их латиницей, например SUI, ARB, ZRO.","sum":"У {c} из {n} ваших монет разлок в ближайшие 30 дней, {s}.","sum_none30":"В ближайшие 30 дней разлоков по вашим монетам ({n}) нет; в течение 60 дней разлок у {c60}.","sum_none":"По вашим монетам ({n}) в наших данных нет разлоков в ближайшие 60 дней.","sum_more":" В течение 60 дней — у {c60}.","coin1":"монета","coin2":"монеты","coin5":"монет","verb1":"","verb2":"","has1":"","has2":"","s_some":"из них сильных: {s}","s_none":"сильных среди них нет","asof":"Данные календаря на {t} UTC.","snap":" Показана копия, встроенная в страницу.","today":"сегодня","tomorrow":"завтра","in1":"через {d} день","in2":"через {d} дня","in5":"через {d} дней","strong":"Сильный","medium":"Средний","small":"Слабый","checkflag":"Данные проверяются","adds":"добавляет {p} к обращению","cliff":"разовый","linear":"сумма за месяц","meter":"Разлок добавляет {p} к обращению","copied":"Ссылка скопирована.","copy_fail":"Выделите ссылку и скопируйте вручную.","saved":"Список сохранён на этом устройстве.","save_fail":"Браузер не разрешает сохранение, список не запомнится. Ссылка ниже работает и так.","cleared":"Список очищен.","ics_name":"Unlock Pulse: мои монеты","ics_sum":"Разлок {sym}: {p} обращения ({g})","ics_desc":"{name} ({sym}): разлок на {p} обращения. Подробнее: {u}","ics_al":"Разлок {sym} через {d}","ics_7":"7 дней","ics_1":"1 день","ics_done":"Файл календаря скачан, разлоков в нём: {k}."}},SNAP=[["REPPO","Reppo","reppo","2026-11-22T00:00:00+00:00",0.1179,285754,"linear",0],["SCR","Scroll","scr","2026-11-22T00:00:00+00:00",0.0947,309248.2619261926,"linear",0],["RWA","Allo","rwa","2026-11-22T00:00:00+00:00",0.1525,232489,"linear",0],["MBG","MultiBank Group","mbg","2026-11-22T00:00:00+00:00",0.0743,2485700,"linear",1],["XPIN","XPIN Network","xpin","2026-11-22T07:00:00+00:00",0.0645,2126969,"linear",0],["0G","0G","0g","2026-11-22T08:30:00+00:00",0.0196,1281496,"linear",0],["RIVER","River","river","2026-11-22T13:00:00+00:00",0.0379,836253,"linear",0],["HYPER","Hyperlane","hyper","2026-11-22T14:44:00+00:00",0.0577,1089698,"linear",0],["XNY","Codatta","xny","2026-11-23T00:00:00+00:00",0.0543,848677.0181017614,"linear",0],["ANIME","Animecoin","anime","2026-11-23T00:00:00+00:00",0.0236,279783,"linear",0],["SLX","Solstice","slx","2026-11-23T00:00:00+00:00",0.088,644704,"linear",1],["AVAIL","Avail","avail","2026-11-23T12:00:00+00:00",0.0601,356838.86811023625,"linear",0],["SPACE","Spacecoin","space","2026-11-24T00:00:00+00:00",0.0392,794454,"linear",0],["MON","Monad","mon","2026-11-24T00:00:00+00:00",1.416,223189256,"cliff",0],["ON","Orochi Network","on","2026-11-24T00:00:00+00:00",0.0668,1546859,"linear",0],["AT","APRO","at","2026-11-24T00:00:00+00:00",0.0625,1188800.0,"linear",0],["NEWT","Newton Protocol","newt","2026-11-24T09:00:00+00:00",0.0549,635727,"linear",0],["ASP","Aspecta","asp","2026-11-24T10:00:00+00:00",0.0485,187285.3490650044,"linear",0],["NIL","Nillion","nil","2026-11-24T13:00:00+00:00",0.0349,904629,"linear",0],["WCT","WalletConnect Token","wct","2026-11-25T00:00:00+00:00",0.038,536347,"linear",0],["ALT","Altlayer","alt","2026-11-25T00:00:00+00:00",0.0257,832268,"linear",0],["PTU","Pintu Token","ptu","2026-11-25T00:00:00+00:00",0.2127,585209.8301886792,"linear",0],["COAI","ChainOpera AI","coai","2026-11-25T07:00:00+00:00",0.1076,3398696,"linear",0],["H","Humanity","h","2026-11-25T09:00:00+00:00",0.1261,2937667.9384501297,"linear",0],["TAKE","OVERTAKE","take","2026-11-25T10:00:00+00:00",0.0519,1223530,"linear",0],["PRL","Perle","prl","2026-11-25T11:00:00+00:00",0.0591,727650.236328125,"linear",0],["XPL","Plasma","xpl","2026-11-25T13:00:00+00:00",0.0478,10237799,"linear",0],["FOGO","Fogo","fogo","2026-11-26T00:00:00+00:00",0.0211,174967,"linear",0],["HUMA","Huma Finance","huma","2026-11-26T00:00:00+00:00",0.349,5278374,"linear",0],["MIRA","Mira","mira","2026-11-26T12:00:00+00:00",0.0621,714844,"cliff",0],["COLLECT","Collect on Fanable","collect","2026-11-27T00:00:00+00:00",0.0516,1494953,"linear",0],["DEUS","XMAQUINA","deus","2026-11-27T00:00:00+00:00",0.0956,201030.49268841394,"linear",0],["EVAA","EVAA Protocol","evaa","2026-11-27T00:00:00+00:00",0.03,3414411,"linear",0],["SAHARA","Sahara AI","sahara","2026-11-27T00:00:00+00:00",0.0359,801618,"linear",0],["BTR","Bitlayer","btr","2026-11-27T10:00:00+00:00",0.0528,659367,"linear",0],["GUA","SUPERFORTUNE","gua","2026-11-27T16:00:00+00:00",0.1367,418340.21040327294,"linear",0],["EDU","Open Campus","edu","2026-11-28T00:00:00+00:00",0.0198,782199,"linear",0],["FLOCK","FLock.io","flock","2026-11-28T00:00:00+00:00",0.0443,708546,"linear",0],["UDS","Undeads Games","uds","2026-11-28T00:00:00+00:00",0.0255,200281,"linear",0],["HOME","Defi App","home","2026-11-28T00:00:00+00:00",0.0446,775974,"linear",0],["PROMPT","Wayfinder","prompt","2026-11-28T00:00:00+00:00",0.0177,116381,"linear",0],["TRADOOR","Tradoor","tradoor","2026-11-28T00:00:00+00:00",0.0449,385723,"linear",0],["PROS","Pharos","pros","2026-11-28T00:00:00+00:00",0.0727,5479435.9822090445,"linear",0],["DYNA","Dynachain","dyna","2026-11-28T04:00:00+00:00",0.1979,167424.2741935484,"linear",0],["IO","io.net","io","2026-11-28T12:00:00+00:00",0.0298,1250714,"linear",0],["HAEDAL","Haedal Protocol","haedal","2026-11-28T12:00:00+00:00",0.0299,292963,"linear",0],["TOWNS","Towns","towns","2026-11-29T00:00:00+00:00",0.0466,181870,"linear",0],["TBOT","TokenBot","tbot","2026-11-29T00:00:00+00:00",0.1827,1199266.5129206174,"linear",0],["IKA","Ika","ika","2026-11-29T10:00:00+00:00",0.0743,122224.27597555245,"linear",0],["GRVT","Grvt","grvt","2026-11-29T12:00:00+00:00",0.6441,11390963,"cliff",0],["TRIA","Tria","tria","2026-11-30T00:00:00+00:00",0.0359,212055,"linear",0],["GENIUS","Genius Terminal","genius","2026-11-30T00:02:00+00:00",0.0325,3256758,"cliff",0],["LUX","Luxxcoin","lux","2026-11-30T09:00:00+00:00",0.631,448127,"linear",0],["SHOW","SHOW","show","2026-12-01T00:00:00+00:00",3.3273,14632314,"linear",1],["MAGMA","Magma Finance","magma","2026-12-01T00:00:00+00:00",0.0779,6082571,"linear",0],["PYBOBO","Capybobo","pybobo","2026-12-01T00:00:00+00:00",0.0472,763126,"linear",0],["UTK","Utrust","utk","2026-12-01T00:00:00+00:00",0.0825,685165,"linear",0],["BOX","DeBox","box","2026-12-01T00:00:00+00:00",0.0219,224338,"linear",0],["PLAY","PlaysOut","play","2026-12-01T00:00:00+00:00",0.0646,565153,"linear",0],["YALA","Yala","yala","2026-12-01T00:00:00+00:00",0.0754,1411094,"linear",0],["WAL","Walrus","wal","2026-12-01T00:00:00+00:00",0.0203,1185589,"linear",0],["TRUTH","Swarm Network","truth","2026-12-01T00:00:00+00:00",0.0757,2326924,"linear",0],["FOREST","Forest Protocol","forest","2026-12-01T00:00:00+00:00",0.1298,497346.0,"linear",0],["AGT","Alaya Governance Token","agt","2026-12-01T00:00:00+00:00",0.0277,2027575,"linear",0],["FF","Falcon Finance","ff","2026-12-01T00:00:00+00:00",0.0573,20270832,"linear",0],["FUN","Sport.Fun","fun","2026-12-01T00:00:00+00:00",0.123,253732,"linear",0],["RLS","Rayls","rls","2026-12-01T00:00:00+00:00",0.2875,827252,"linear",0],["KITE","Kite","kite","2026-12-01T00:00:00+00:00",0.0384,14832092,"linear",0],["BEAT","Audiera","beat","2026-12-01T08:00:00+00:00",0.0607,1557843.0,"linear",0],["OPN","Opinion","opn","2026-12-02T00:00:00+00:00",0.0568,311060,"linear",0],["AIO","OLAXBT","aio","2026-12-02T00:00:00+00:00",0.1147,788113,"linear",0],["Q","Quack AI","q","2026-12-02T00:00:00+00:00",0.0386,4665297,"linear",0],["BTW","Bitway","btw","2026-12-02T08:00:00+00:00",0.0349,68120828,"linear",0],["2Z","DoubleZero","2z","2026-12-02T13:00:00+00:00",0.0391,2144825,"linear",0],["MCH","Moonchain","mch","2026-12-03T00:00:00+00:00",0.0695,120195,"linear",0],["STO","StakeStone","sto","2026-12-03T00:00:00+00:00",0.0948,451787,"linear",0],["AI","Sleepless AI","ai","2026-12-04T00:00:00+00:00",0.0266,217994,"linear",0],["LA","Lagrange","la","2026-12-04T00:00:00+00:00",0.0779,1071100.6095163191,"linear",0],["CYC","Cycle Network","cyc","2026-12-04T11:00:00+00:00",0.0811,734858,"linear",0],["MMT","Momentum","mmt","2026-12-04T20:00:00+00:00",0.0603,2625127,"linear",0],["VERONA","Verona","verona","2026-12-05T05:00:00+00:00",0.1624,1350312,"linear",0],["AIN","Infinity Ground","ain","2026-12-05T09:00:00+00:00",0.0556,1913261,"linear",0],["POWER","Power Protocol","power","2026-12-05T16:00:00+00:00",0.1581,1584633,"linear",0],["BERA","Berachain","bera","2026-12-06T00:00:00+00:00",0.0363,1022719,"linear",0],["BREV","Brevis","brev","2026-12-06T00:00:00+00:00",0.0728,1211002.0203296703,"linear",0],["BULLA","Bulla","bulla","2026-12-06T00:00:00+00:00",0.0188,283812,"linear",0],["UAI","UnifAI Network","uai","2026-12-06T00:00:00+00:00",0.0671,498907,"linear",0],["MYX","MYX Finance","myx","2026-12-06T08:00:00+00:00",0.0621,884685,"linear",0],["F","SynFutures","f","2026-12-06T12:00:00+00:00",0.0379,423112,"linear",0],["X","TaleX","x","2026-12-07T00:00:00+00:00",0.0558,489036,"linear",0],["SAGA","Saga","saga","2026-12-07T00:00:00+00:00",0.0249,149193,"linear",0],["JTO","Jito","jto","2026-12-07T00:00:00+00:00",0.0207,2515996,"linear",0],["ZTC","ZenChain","ztc","2026-12-07T10:00:00+00:00",0.0745,217640.61287027583,"linear",0],["TNSR","Tensor","tnsr","2026-12-08T00:00:00+00:00",0.0336,341158,"linear",0],["OPEN","OpenLedger","open","2026-12-08T13:00:00+00:00",0.0537,1477304.0442338074,"linear",0],["MOVE","Movement","move","2026-12-09T00:00:00+00:00",0.0335,740951,"linear",0],["ADI","ADI","adi","2026-12-09T12:00:00+00:00",1.3216,83321487,"linear",0],["FHE","Mind Network","fhe","2026-12-10T00:00:00+00:00",0.025,235487,"linear",0],["JCT","Janction","jct","2026-12-10T00:00:00+00:00",0.1212,2079224,"linear",0],["ALLO","Allora","allo","2026-12-10T00:01:00+00:00",0.0622,3186377,"linear",1],["RAIN","Rain","rain","2026-12-10T12:00:00+00:00",0.0343,92334350,"linear",0],["GODS","Gods Unchained","gods","2026-12-11T00:00:00+00:00",0.0139,117140,"linear",0],["HOLO","Holoworld AI","holo","2026-12-11T00:00:00+00:00",0.0384,1391450,"linear",0],["IDOL","MEET48","idol","2026-12-11T00:00:00+00:00",0.0957,4295227.983302413,"linear",0],["RAVE","RaveDAO","rave","2026-12-12T00:00:00+00:00",1.1411,35517858,"cliff",0],["WAI","World3","wai","2026-12-12T00:00:00+00:00",0.0637,161522,"linear",0],["UB","Unibase","ub","2026-12-12T00:00:00+00:00",0.125,30368120,"linear",0],["LAVA","Lava Network","lava","2026-12-12T00:00:00+00:00",0.076,288357,"linear",0],["CHECK","Checkmate","check","2026-12-13T00:00:00+00:00",0.062,188851.0479704797,"linear",0],["SHELL","MyShell","shell","2026-12-13T00:00:00+00:00",0.0342,389226,"linear",0],["C","Chainbase","c","2026-12-14T00:00:00+00:00",0.0538,1429250,"linear",0],["CLO","Yei Finance","clo","2026-12-14T00:00:00+00:00",0.1001,740825.4066324517,"linear",0],["PIEVERSE","Pieverse","pieverse","2026-12-14T00:00:00+00:00",0.072,73328569,"linear",0],["RTX","RateX","rtx","2026-12-14T09:00:00+00:00",0.2729,636366,"linear",0],["PUFFER","Puffer","puffer","2026-12-14T12:00:00+00:00",0.0381,487374,"linear",0],["STRK","Starknet","strk","2026-12-15T00:00:00+00:00",0.0208,4941738,"linear",0],["TA","Trusta.AI","ta","2026-12-15T00:00:00+00:00",0.0586,2391174,"linear",0],["SEI","Sei","sei","2026-12-15T00:00:00+00:00",0.0153,4118698,"linear",0],["TCOM","TCOM Global","tcom","2026-12-15T00:00:00+00:00",0.2596,177981,"linear",0],["LIGHT","Bitlight","light","2026-12-15T00:00:00+00:00",0.2791,2302915,"linear",0],["P","PoP Planet","p","2026-12-15T00:00:00+00:00",0.1411,192526,"linear",0],["RECALL","Recall","recall","2026-12-15T00:00:00+00:00",0.0958,601727.2714285715,"linear",0],["VANA","Vana","vana","2026-12-15T00:00:00+00:00",0.1758,3165675,"cliff",0],["SENTIS","SentismAI","sentis","2026-12-15T00:00:00+00:00",1.6412,7519702,"cliff",1],["THQ","Theoriq","thq","2026-12-16T00:00:00+00:00",1.272,1472372,"cliff",0],["ROLL","RollX","roll","2026-12-16T00:00:00+00:00",0.1344,1101577,"cliff",0],["LAYER","Solayer","layer","2026-12-16T00:00:00+00:00",0.0233,498698,"linear",0],["GPS","GoPlus Security","gps","2026-12-16T07:00:00+00:00",0.1417,7666723,"linear",0],["RE","Re","re","2026-12-17T00:00:00+00:00",0.2666,8615591,"linear",0],["APM","apM Fashion","apm","2026-12-17T00:00:00+00:00",0.1883,620613,"linear",0],["BANK","Lorenzo Protocol","bank","2026-12-17T00:00:00+00:00",0.0525,641796,"linear",0],["ZBT","ZEROBASE","zbt","2026-12-17T00:00:00+00:00",0.0504,788957,"linear",0],["CRO","Cronos","cro","2026-12-17T00:00:00+00:00",0.0225,48099177,"linear",0],["SOLV","Solv Protocol","solv","2026-12-17T09:00:00+00:00",0.0326,727681,"linear",0],["ERA","Caldera","era","2026-12-17T13:30:00+00:00",0.1569,1699558.635394456,"linear",0],["ACE","Fusionist","ace","2026-12-18T00:00:00+00:00",0.0246,247443,"linear",0],["MANTA","Manta Network","manta","2026-12-18T00:00:00+00:00",0.0286,544885,"linear",0],["BARD","Lombard","bard","2026-12-18T00:00:00+00:00",0.0544,2230019.410901468,"linear",0],["BEE","DAOBase","bee","2026-12-18T00:00:00+00:00",0.1413,485257,"linear",0],["AIA","DeAgentAI","aia","2026-12-18T08:00:00+00:00",0.1475,1951780,"linear",0],["BAS","BAS","bas","2026-12-19T00:00:00+00:00",0.1017,3008326,"linear",0],["PIXEL","Pixels","pixel","2026-12-19T00:00:00+00:00",0.0247,254591,"linear",0],["ZEST","Zest Protocol","zest","2026-12-19T00:00:00+00:00",0.1355,2329393,"linear",0],["MERL","Merlin Chain","merl","2026-12-19T00:00:00+00:00",0.026,1009288,"linear",0],["ZKP","zkPass","zkp","2026-12-19T12:00:00+00:00",0.0636,612457,"linear",0],["ZRO","LayerZero","zro","2026-12-20T00:00:00+00:00",0.0799,38701072,"linear",0],["KAITO","KAITO","kaito","2026-12-20T00:00:00+00:00",0.075,2753636,"linear",0],["ACU","Acurast","acu","2026-12-20T00:00:00+00:00",0.0716,3545796,"linear",0],["MWXT","MWX Token","mwxt","2026-12-20T06:00:00+00:00",0.1067,539096,"linear",0],["ESPORTS","Yooldo","esports","2026-12-20T09:00:00+00:00",0.0159,146401,"linear",0],["CATI","Catizen","cati","2026-12-20T10:00:00+00:00",0.0527,931408,"linear",0],["PLUME","Plume","plume","2026-12-21T00:00:00+00:00",0.0302,2291377,"linear",0],["ARIA","AriaAI","aria","2026-12-21T00:00:00+00:00",0.1106,11325690,"linear",0],["MAMO","Mamo","mamo","2026-12-21T07:00:00+00:00",0.0435,120388,"linear",0],["DMC","DeLorean","dmc","2026-12-21T11:00:00+00:00",0.0438,105042,"linear",0],["AXIS","Axis Robotics","axis","2026-12-21T11:00:00+00:00",0.1085,1788646,"cliff",0],["POR","Portuma","por","2026-12-30T15:00:00+00:00",0.5284,177394,"cliff",0],["GOHOME","GOHOME","gohome","2026-12-31T00:00:00+00:00",0.5001,17044658,"cliff",0],["SMART","SMART","smart","2027-01-01T00:00:00+00:00",30.8764,787642037,"linear",1],["XTER","Xterio","xter","2027-01-08T00:00:00+00:00",0.2061,236187,"linear",0],["WNDR","Wonderman Nation","wndr","2027-01-09T00:00:00+00:00",1.3085,172139,"linear",0],["SIGN","Sign","sign","2027-01-15T00:00:00+00:00",0.2793,5821765,"cliff",0],["DBR","deBridge","dbr","2027-01-17T00:00:00+00:00",0.3335,8158976,"linear",0],["LUMIA","Lumia","lumia","2027-01-18T00:00:00+00:00",0.0224,249585,"linear",0],["ONDO","Ondo","ondo","2027-01-18T00:00:00+00:00",0.3512,480447566.29405916,"linear",0],["ELSA","HeyElsa","elsa","2027-01-20T08:00:00+00:00",0.4111,7147290,"linear",0]],T=C.t,RU=C.lang==='ru',DAY=864e5,NB='\u00a0';
+function $(i){return document.getElementById(i)}
+var ta=$('mc-in'),bCheck=$('mc-check'),bClear=$('mc-clear'),bEx=$('mc-example'),sum=$('mc-sum'),sub=$('mc-sub'),msg=$('mc-msg'),
+    list=$('mc-list'),key=$('mc-key'),miss=$('mc-miss'),missUl=$('mc-miss-ul'),share=$('mc-share'),bIcs=$('mc-ics'),url=$('mc-url'),bCopy=$('mc-copy'),
+    linkBox=$('mc-linkbox'),bSave=$('mc-save');
+var EV=[],GEN=C.gen,fromSnap=true,bySym={},bySlug={},saved=[],linkMode=false,shown=[],cur=[];
+
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function fill(s,o){return s.replace(/\{(\w+)\}/g,function(m,k){return o[k]==null?'':o[k]})}
+function plural(n,a,b,c){if(!RU)return n===1?a:b;var m=n%10,h=n%100;return m===1&&h!==11?a:m>=2&&m<=4&&(h<12||h>14)?b:c}
+function pct(b){var v=b*100,s=v>=100?v.toFixed(0):v.toFixed(1);return RU?s.replace('.',',')+NB+'%':s+'%'}
+function usd(x){if(!x)return'';if(!RU)return x>=1e9?'$'+(x/1e9).toFixed(1)+'B':x>=1e6?'$'+(x/1e6).toFixed(1)+'M':'$'+(x/1e3).toFixed(0)+'K';
+  var v=x>=1e9?[x/1e9,'млрд']:x>=1e6?[x/1e6,'млн']:[x/1e3,'тыс.'];return'$'+(v[1]==='тыс.'?v[0].toFixed(0):v[0].toFixed(1)).replace('.',',')+NB+v[1]}
+function grp(b){return b>=C.strong?'strong':b>=C.medium?'medium':'small'}
+function fmtDate(d){try{return new Intl.DateTimeFormat(RU?'ru':'en-US',{day:'numeric',month:'short',timeZone:'UTC'}).format(d)}catch(e){return d.toISOString().slice(0,10)}}
+function utcDay(t){var d=new Date(t);return Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate())}
+function daysTo(e){return Math.round((utcDay(e.t)-utcDay(Date.now()))/DAY)}
+function inDays(d){return d<=0?T.today:d===1?T.tomorrow:fill(plural(d,T.in1,T.in2,T.in5),{d:d})}
+
+/* разбор ввода: запятые, пробелы, переводы строк, точки с запятой; $SUI и #sui → SUI; без повторов */
+function parse(s){var seen={},r=[];String(s==null?'':s).split(/[\s,;|]+/).forEach(function(x){
+  x=x.replace(/[^A-Za-z0-9._-]/g,'').replace(/^[._-]+|[._-]+$/g,'').toUpperCase().slice(0,20);
+  if(x&&!seen[x]&&r.length<300){seen[x]=1;r.push(x)}});return r}
+
+function norm(e){var t=Date.parse(e.date);if(!e.sym||!e.slug||isNaN(t)||typeof e.B!=='number')return null;
+  return{sym:String(e.sym).toUpperCase(),name:String(e.name||e.sym),slug:String(e.slug),t:t,B:e.B,usd:e.usd||0,type:e.type==='cliff'?'cliff':'linear',
+    g:grp(e.B),flag:!!(e.data_check||e.unpriced)}}
+function setData(arr,gen,snap){var now=Date.now();EV=[];bySym={};bySlug={};
+  arr.forEach(function(x){var e=norm(x);if(!e)return;var d=(utcDay(e.t)-utcDay(now))/DAY;if(d<0||d>C.days)return;EV.push(e)});
+  EV.sort(function(a,b){return a.t-b.t||(a.sym<b.sym?-1:1)});
+  EV.forEach(function(e){(bySym[e.sym]=bySym[e.sym]||[]).push(e);var k=e.slug.toUpperCase();(bySlug[k]=bySlug[k]||[]).push(e)});
+  GEN=gen||GEN;fromSnap=!!snap}
+function find(tk){return bySym[tk]||bySlug[tk]||[]}
+
+/* хранение: up-coins — массив тикеров; up-fav — массив slug, общий со звёздочкой календаря */
+function lsGet(k){try{var a=JSON.parse(localStorage.getItem(k)||'[]');return Array.isArray(a)?a.filter(function(x){return typeof x==='string'}):[]}catch(e){return[]}}
+function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}}
+function loadSaved(){var l=parse(lsGet('up-coins').join(',')),has={};l.forEach(function(x){has[x]=1});
+  lsGet('up-fav').forEach(function(sl){var ev=bySlug[String(sl).toUpperCase()];if(ev&&!has[ev[0].sym]){has[ev[0].sym]=1;l.push(ev[0].sym)}});return l}
+function save(l){var fav=lsGet('up-fav'),drop={},add=[],inNew={};l.forEach(function(x){inNew[x]=1});
+  saved.forEach(function(tk){if(!inNew[tk])find(tk).forEach(function(e){drop[e.slug]=1})});
+  l.forEach(function(tk){find(tk).forEach(function(e){if(add.indexOf(e.slug)<0)add.push(e.slug)})});
+  fav=fav.filter(function(s){return!drop[s]});add.forEach(function(s){if(fav.indexOf(s)<0)fav.push(s)});
+  var ok=lsSet('up-coins',l)&&lsSet('up-fav',fav);if(ok)saved=l.slice();return ok}
+function same(a,b){return a.length===b.length&&a.slice().sort().join()===b.slice().sort().join()}
+
+function meter(e){var nw=Math.min(e.B,1.5),tot=1+nw;
+  return'<div class="meter" role="img" aria-label="'+esc(fill(T.meter,{p:pct(e.B)}))+'"><span class="m-base" style="width:'+(100/tot).toFixed(2)+'%"></span>'+
+    '<span class="m-new '+e.g+'" style="width:'+(100*nw/tot).toFixed(2)+'%"></span><span class="m-tick" style="left:min('+(100*(1+C.strong)/tot).toFixed(2)+'%,calc(100% - 2px))"></span></div>'}
+function row(e){var d=daysTo(e),u=usd(e.usd),tag=e.flag?'<span class="mc-tag s-check">'+esc(T.checkflag)+'</span>':'<span class="mc-tag s-'+e.g+'">'+esc(T[e.g])+'</span>';
+  return'<li class="mc-row"><div class="mc-when"><b>'+esc(fmtDate(new Date(e.t)))+'</b><span>'+esc(inDays(d))+'</span></div>'+
+    '<div class="mc-what"><a href="'+esc(C.unlock+e.slug+'.html')+'" translate="no">'+esc(e.sym)+'</a><span class="mc-name" translate="no">'+esc(e.name)+'</span>'+
+    '<div class="mc-facts">'+tag+': '+esc(fill(T.adds,{p:pct(e.B)}))+(u?' · '+esc(u):'')+' · '+esc(T[e.type])+'</div>'+meter(e)+'</div></li>'}
+
+function linkFor(l){return C.page+(l.length?'?coins='+l.map(encodeURIComponent).join(','):'')}
+
+function summary(l,hit){var n=l.length,c30=0,s30=0,c60=0;
+  l.forEach(function(tk){var ev=find(tk);if(!ev.length)return;c60++;var in30=ev.filter(function(e){return daysTo(e)<=30});
+    if(in30.length){c30++;if(in30.some(function(e){return e.g==='strong'&&!e.flag}))s30++}});
+  var o={n:n,c:c30,c60:c60,coins:plural(n,T.coin1,T.coin2,T.coin5),verb:c30===1?T.verb1:T.verb2,verb0:n===1?T.verb1:T.verb2,verb60:c60===1?T.verb1:T.verb2,
+    has:n===1?T.has1:T.has2,s:s30?fill(T.s_some,{s:s30}):T.s_none};
+  if(!c60)return fill(T.sum_none,o);if(!c30)return fill(T.sum_none30,o);
+  return fill(T.sum,o)+(c60>c30?fill(T.sum_more,o):'')}
+
+function render(l,note){cur=l;msg.textContent=note||'';
+  if(!l.length){sum.textContent=ta.value.trim()?T.empty:T.ready;sub.textContent='';list.innerHTML='';list.hidden=key.hidden=miss.hidden=share.hidden=linkBox.hidden=true;shown=[];return}
+  var seen={},missing=[];shown=[];
+  l.forEach(function(tk){var ev=find(tk);if(!ev.length){missing.push(tk);return}ev.forEach(function(e){var k=e.slug+e.t;if(!seen[k]){seen[k]=1;shown.push(e)}})});
+  shown.sort(function(a,b){return a.t-b.t||(a.sym<b.sym?-1:1)});
+  sum.textContent=summary(l);
+  sub.textContent=fill(T.asof,{t:String(GEN||'').slice(0,16).replace('T',' ')})+(fromSnap&&C.fetched?T.snap:'');
+  list.innerHTML=shown.map(row).join('');list.hidden=key.hidden=!shown.length;
+  missUl.innerHTML=missing.map(function(x){return'<li translate="no">'+esc(x)+'</li>'}).join('');miss.hidden=!missing.length;
+  share.hidden=false;url.value=linkFor(l);bIcs.disabled=!shown.length;
+  linkBox.hidden=!linkMode}
+
+/* .ics: RFC 5545 — CRLF, строки не длиннее 75 байт, экранирование текста */
+function icsEsc(s){return String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n')}
+function bytes(ch){var c=ch.codePointAt(0);return c<128?1:c<2048?2:c<65536?3:4}
+function fold(line){var out='',n=0;Array.from(line).forEach(function(ch){var b=bytes(ch);if(n+b>75){out+='\r\n ';n=1}out+=ch;n+=b});return out}
+function ymd(t){var d=new Date(t);return''+d.getUTCFullYear()+('0'+(d.getUTCMonth()+1)).slice(-2)+('0'+d.getUTCDate()).slice(-2)}
+function makeIcs(evs){var now=new Date(),st=ymd(now.getTime())+'T'+('0'+now.getUTCHours()).slice(-2)+('0'+now.getUTCMinutes()).slice(-2)+('0'+now.getUTCSeconds()).slice(-2)+'Z';
+  var L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Unlock Pulse//My coins//'+(RU?'RU':'EN'),'CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:'+icsEsc(T.ics_name),'X-WR-TIMEZONE:UTC'];
+  evs.forEach(function(e){var u=C.unlock+e.slug+'.html',o={sym:e.sym,name:e.name,p:pct(e.B),g:e.flag?T.checkflag:T[e.g],u:u};
+    L.push('BEGIN:VEVENT','UID:'+e.slug+'-'+ymd(e.t)+'@unlockpulse','DTSTAMP:'+st,'DTSTART;VALUE=DATE:'+ymd(e.t),'DTEND;VALUE=DATE:'+ymd(e.t+DAY),
+      'SUMMARY:'+icsEsc(fill(T.ics_sum,o)),'DESCRIPTION:'+icsEsc(fill(T.ics_desc,o)),'URL:'+u,'TRANSP:TRANSPARENT',
+      'BEGIN:VALARM','TRIGGER:-P7D','ACTION:DISPLAY','DESCRIPTION:'+icsEsc(fill(T.ics_al,{sym:e.sym,d:T.ics_7})),'END:VALARM',
+      'BEGIN:VALARM','TRIGGER:-P1D','ACTION:DISPLAY','DESCRIPTION:'+icsEsc(fill(T.ics_al,{sym:e.sym,d:T.ics_1})),'END:VALARM','END:VEVENT')});
+  L.push('END:VCALENDAR');return L.map(fold).join('\r\n')+'\r\n'}
+function download(){if(!shown.length)return;var txt=makeIcs(shown),a=document.createElement('a'),href;
+  try{href=URL.createObjectURL(new Blob([txt],{type:'text/calendar;charset=utf-8'}))}catch(e){href='data:text/calendar;charset=utf-8,'+encodeURIComponent(txt)}
+  a.href=href;a.download='unlock-pulse-my-coins.ics';a.style.display='none';document.body.appendChild(a);a.click();
+  setTimeout(function(){a.remove();if(href.slice(0,5)==='blob:')URL.revokeObjectURL(href)},1500);msg.textContent=fill(T.ics_done,{k:shown.length})}
+
+function check(userAct){var l=parse(ta.value),note='';
+  if(userAct&&l.length){if(linkMode&&saved.length&&!same(l,saved)){note=''}else{linkMode=false;note=save(l)?T.saved:T.save_fail}}
+  render(l,note)}
+
+bCheck.addEventListener('click',function(){check(true)});
+ta.addEventListener('keydown',function(e){if(e.key==='Enter'&&(e.ctrlKey||e.metaKey)){e.preventDefault();check(true)}});
+bClear.addEventListener('click',function(){ta.value='';var ok=!linkMode&&save([]);linkMode=false;render([],ok?T.cleared:'');ta.focus()});
+bEx.addEventListener('click',function(){var ex=[];EV.forEach(function(e){if(ex.length<3&&e.g==='strong'&&!e.flag&&ex.indexOf(e.sym)<0)ex.push(e.sym)});
+  ex.push('BTC');ta.value=ex.join(', ');render(parse(ta.value),'')});
+bIcs.addEventListener('click',download);
+bSave.addEventListener('click',function(){linkMode=false;var ok=save(cur);render(cur,ok?T.saved:T.save_fail)});
+bCopy.addEventListener('click',function(){function fb(){url.focus();url.select();var ok=false;try{ok=document.execCommand('copy')}catch(e){}msg.textContent=ok?T.copied:T.copy_fail}
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(url.value).then(function(){msg.textContent=T.copied},fb);else fb()});
+url.addEventListener('focus',function(){url.select()});
+
+function start(){saved=loadSaved();var q='';try{q=new URLSearchParams(location.search).get('coins')||''}catch(e){}
+  var fromUrl=parse(q);
+  if(fromUrl.length){linkMode=saved.length>0&&!same(fromUrl,saved);ta.value=fromUrl.join(', ');render(fromUrl,'')}
+  else if(saved.length){ta.value=saved.join(', ');render(saved,'')}
+  else render([],'')}
+[bCheck,bClear,bEx].forEach(function(b){b.disabled=false});
+setData(SNAP.map(function(a){return{sym:a[0],name:a[1],slug:a[2],date:a[3],B:a[4],usd:a[5],type:a[6],data_check:a[7]}}),C.gen,true);
+start();
+/* свежие данные с того же источника; при отказе (CSP, сеть) остаётся встроенный снимок */
+if(window.fetch)fetch(C.data,{credentials:'omit'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
+  C.fetched=true;if(!d||!Array.isArray(d.events)||!d.events.length)return;
+  var typed=parse(ta.value),was=cur;setData(d.events,d.generated,false);saved=loadSaved();
+  if(was.length&&same(typed,was))render(was,msg.textContent);else if(!was.length&&!ta.value.trim())start()}).catch(function(){C.fetched=true;if(cur.length)render(cur,msg.textContent)});
+})();
+</script></main><footer><div class="wrap"><div class="cols"><div><b>Unlock Pulse</b><p>Журнал разлоков криптотокенов: каждый сильный разлок записан до даты, сравнён с монетами в обращении и проверен после. Календарь бесплатный.</p></div><div><b>Данные</b><p>Расписание: календарь разлоков CoinMarketCap, эмиссии DefiLlama. Фьючерсы: списки KuCoin и Binance. История: 304 разлоков, 2023–2026. Файл данных: <a href="https://billibo6.github.io/unlockpulse/data.json">data.json</a> (наши оценки, история и тексты — CC BY 4.0; расписания разлоков — по условиям их источников) · <a href="https://billibo6.github.io/unlockpulse/strong.ics">strong.ics</a> для календаря.</p></div><div><b>Читать</b><p><a href="https://billibo6.github.io/unlockpulse/ru/tools/my-coins.html">Проверить мои монеты</a><br><a href="https://billibo6.github.io/unlockpulse/ru/schedule/">Графики разлоков по монетам</a><br><a href="https://billibo6.github.io/unlockpulse/ru/disputed.html">Спорные разлоки</a><br><a href="https://billibo6.github.io/unlockpulse/ru/calendar/this-week.html">Разлоки этой недели</a><br><a href="https://billibo6.github.io/unlockpulse/ru/method.html">Как мы оцениваем разлоки</a><br><a href="https://billibo6.github.io/unlockpulse/ru/glossary.html">Словарь и FAQ</a><br><a href="https://billibo6.github.io/unlockpulse/ru/q/">Вопросы и ответы</a><br><a href="https://billibo6.github.io/unlockpulse/ru/week/">Разлоки по неделям</a><br><a href="https://billibo6.github.io/unlockpulse/ru/journal.html">Журнал: запись → итог</a><br><a href="https://billibo6.github.io/unlockpulse/ru/tested.html">Что мы проверили</a><br><a href="https://billibo6.github.io/unlockpulse/ru/embed.html">Календарь на ваш сайт</a><br><a href="https://billibo6.github.io/unlockpulse/ru/ai.html">Для ИИ-ассистентов (MCP)</a><br><a href="https://github.com/Billibo6/unlockpulse-mcp">GitHub</a><br><a href="https://billibo6.github.io/unlockpulse/ru/report/">Журналистам и исследователям</a><br><a href="https://billibo6.github.io/unlockpulse/ru/about.html">О проекте</a><br><a href="https://billibo6.github.io/unlockpulse/ru/privacy.html">Конфиденциальность</a><br><a href="#" data-cookie>Настройки cookie</a><br><a href="https://billibo6.github.io/unlockpulse/ru/research/">Разборы</a><br><a href="https://t.me/razloki">Канал в Telegram</a></p></div></div><p class="tiny">Только информация, не инвестиционная рекомендация. Не связаны с Anthropic, CoinMarketCap, DefiLlama, Binance и с биржами и проектами из списка. Даты и объёмы разлоков могут быть ошибочными или сдвинуться. Прошлые закономерности не гарантируют будущих результатов. Собрано 2026-11-21 21:31 UTC, обновляется каждый час.</p></div></footer><script>
+(function(){var r=document.documentElement,k='up-theme';try{var t=localStorage.getItem(k);if(t)r.setAttribute('data-theme',t)}catch(e){}
+var b=document.getElementById('theme');if(b)b.addEventListener('click',function(){var dark=matchMedia('(prefers-color-scheme:dark)').matches;var cur=r.getAttribute('data-theme')||(dark?'dark':'light');var nx=cur==='dark'?'light':'dark';r.setAttribute('data-theme',nx);try{localStorage.setItem(k,nx)}catch(e){}});
+var u=document.getElementById('upd');if(u){var ru=u.getAttribute('lang')==='ru';var ms=Date.now()-Date.parse(u.getAttribute('datetime')),m=Math.round(ms/60000);u.textContent=ru?(m<2?'Обновлено только что':m<90?'Обновлено '+m+' мин назад':'Обновлено '+Math.round(m/60)+' ч назад'):(m<2?'Updated just now':m<90?'Updated '+m+' min ago':'Updated '+Math.round(m/60)+' h ago');if(m>180){u.parentNode.classList.add('stale');u.textContent+=ru?' · данные могли устареть':' · data may be out of date'}}
+var f=document.getElementById('chips');if(f){var RU=document.documentElement.lang==='ru';function plural(n){var a=n%10,b=n%100;return a===1&&b!==11?'разлок':(a>=2&&a<=4&&(b<10||b>=20)?'разлока':'разлоков')}
+var GR=null;function grp(){if(!GR){GR=[];document.querySelectorAll('tr.wk').forEach(function(w){var n=w.nextElementSibling,rows=[];while(n&&!n.classList.contains('wk')){rows.push(n);n=n.nextElementSibling}GR.push({w:w,rows:rows,s:w.querySelector('.wkn')})})}return GR}
+function groups(){var B=document.body.classList,ff=B.contains('f-fav'),sm=ff||B.contains('show-small')||B.contains('searching'),fs=B.contains('f-strong'),fo=B.contains('f-oneday'),fp=B.contains('f-perp'),any=false;
+grp().forEach(function(g){var cnt=0,st=0,i,c;for(i=0;i<g.rows.length;i++){c=g.rows[i].classList;
+if(c.contains('nq')||(!sm&&c.contains('small'))||(fs&&!c.contains('strong'))||(fo&&c.contains('linear'))||(fp&&c.contains('noperp'))||(ff&&!c.contains('fav')))continue;cnt++;if(c.contains('strong')&&!c.contains('chk'))st++}
+if(cnt)any=true;g.w.classList.toggle('hidden',!cnt);if(g.s){var t='· '+(RU?cnt+' '+plural(cnt)+', сильных '+st:cnt+(cnt===1?' unlock':' unlocks')+', '+st+' strong');if(g.s.textContent!==t)g.s.textContent=t}});
+var nq=document.querySelector('.noq');if(nq)nq.classList.toggle('on',B.contains('searching')&&!any)}
+document.addEventListener('click',function(e){var b=e.target.closest('.wkb');if(!b)return;var w=b.closest('tr.wk'),open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',open);w.classList.toggle('closed',!open);b.querySelector('.wka').textContent=open?'▾':'▸';
+document.querySelectorAll('tr[data-g="'+w.dataset.g+'"]:not(.wk)').forEach(function(x){x.classList.toggle('gc',!open)});groups()});
+var q=document.getElementById('q');if(q)q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();document.body.classList.toggle('searching',!!v);
+document.querySelectorAll('#calendar tbody tr:not(.wk)').forEach(function(x){var t=x.querySelector('td.t');var hit=!v||(t&&(t.dataset.s+' '+t.textContent).toLowerCase().indexOf(v)>=0);x.classList.toggle('nq',!hit)});groups()});
+var q2=document.getElementById('q2'),qf=document.getElementById('qf');if(q&&q2&&qf){q2.addEventListener('input',function(){q.value=q2.value;q.dispatchEvent(new Event('input'))});
+q.addEventListener('input',function(){if(q2.value!==q.value)q2.value=q.value});
+qf.addEventListener('submit',function(e){e.preventDefault();document.getElementById('calendar').scrollIntoView();q.focus({preventScroll:true})})}
+f.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',on);document.body.classList.toggle(b.dataset.c,on);groups()})}
+function closeTips(x){document.querySelectorAll('.qb[aria-expanded=true]').forEach(function(b){if(b!==x){b.setAttribute('aria-expanded','false');b.nextElementSibling.hidden=true}})}
+document.addEventListener('click',function(e){var b=e.target.closest('.qb');if(b){var on=b.getAttribute('aria-expanded')!=='true';closeTips(b);b.setAttribute('aria-expanded',on);b.nextElementSibling.hidden=!on;var t=b.nextElementSibling,rc=t.getBoundingClientRect();if(rc.right>innerWidth-8){t.style.left='auto';t.style.right='0'}}else if(!e.target.closest('.q'))closeTips()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeTips()});
+if(document.documentElement.lang==='en'&&/^(ru|uk|be|kk)/i.test(navigator.language||'')){var sk='up-ru-hint',hid=false;try{hid=localStorage.getItem(sk)}catch(e){}if(!hid){var a=document.querySelector('a[hreflang=ru]');if(a){var d=document.createElement('div');d.className='up-ru-hint';d.setAttribute('translate','no');d.style.cssText='text-align:center';d.innerHTML='Есть русская версия сайта: <a style="color:inherit;text-decoration:underline" href="'+a.href+'">открыть</a> · <button type="button" style="background:none;border:0;color:inherit;cursor:pointer;font:inherit;text-decoration:underline">закрыть</button>';d.querySelector('button').onclick=function(){d.remove();try{localStorage.setItem(sk,'1')}catch(e){}};document.body.insertBefore(d,document.body.firstChild)}}}
+var FK='up-fav',fav=[];try{fav=JSON.parse(localStorage.getItem(FK)||'[]')}catch(e){fav=[]}
+function paint(){document.querySelectorAll('.star').forEach(function(s){var on=fav.indexOf(s.dataset.s)>=0;if(s.getAttribute('aria-pressed')!==String(on))s.setAttribute('aria-pressed',on);var si=s.querySelector('.si')||s,ch=on?'★':'☆';if(si.textContent!==ch)si.textContent=ch;var tr=s.closest('tr');if(tr)tr.classList.toggle('fav',on)});
+var ef=document.querySelector('.empty-fav');if(ef)ef.classList.toggle('on',!document.querySelector('tr.fav'));if(typeof groups==='function')groups()}
+document.addEventListener('click',function(e){var s=e.target.closest('.star');if(!s)return;var i=fav.indexOf(s.dataset.s);if(i>=0)fav.splice(i,1);else fav.push(s.dataset.s);try{localStorage.setItem(FK,JSON.stringify(fav))}catch(x){}paint()});
+try{var off=new Date().getTimezoneOffset();if(off!==0){var lg=navigator.language||'en';var RUl=document.documentElement.lang==='ru';
+document.querySelectorAll('[data-ut]').forEach(function(x){var d=new Date(x.getAttribute('data-ut'));if(isNaN(d))return;
+var t=new Intl.DateTimeFormat(lg,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(d);
+var sp=document.createElement('span');sp.className='lt';sp.textContent=(RUl?' · у вас: ':' · your time: ')+t;x.appendChild(sp)});
+document.querySelectorAll('time[datetime]').forEach(function(x){if(x.id==='upd')return;var d=new Date(x.getAttribute('datetime'));if(isNaN(d))return;
+x.title=(x.title?x.title+' · ':'')+new Intl.DateTimeFormat(lg,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(d)})}}catch(e){}
+paint();
+})();
+</script></body></html>

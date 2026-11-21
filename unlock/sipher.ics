@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SIPHER token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:sipher-20261105@unlockpulse
+DTSTAMP:20261105T153102Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:SIPHER unlock: 23.2% of circulating (Strong)
+DESCRIPTION:Sipher (SIPHER) unlocks 23.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/sipher.html
+URL:https://billibo6.github.io/unlockpulse/unlock/sipher.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SIPHER unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

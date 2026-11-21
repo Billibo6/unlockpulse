@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SOLV token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:solv-20261217@unlockpulse
+DTSTAMP:20261121T213102Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:SOLV unlock: 3.3% of circulating (Small)
+DESCRIPTION:Solv Protocol (SOLV) unlocks 3.3% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/solv.html
+URL:https://billibo6.github.io/unlockpulse/unlock/solv.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SOLV unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

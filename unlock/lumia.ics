@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LUMIA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:lumia-20270118@unlockpulse
+DTSTAMP:20261121T213102Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:LUMIA unlock: 2.2% of circulating (Small)
+DESCRIPTION:Lumia (LUMIA) unlocks 2.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/lumia.html
+URL:https://billibo6.github.io/unlockpulse/unlock/lumia.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LUMIA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

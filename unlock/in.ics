@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IN token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:in-20261107@unlockpulse
+DTSTAMP:20261107T093102Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:IN unlock: 16.4% of circulating (Strong)
+DESCRIPTION:INFINIT (IN) unlocks 16.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/in.html
+URL:https://billibo6.github.io/unlockpulse/unlock/in.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:IN unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR
