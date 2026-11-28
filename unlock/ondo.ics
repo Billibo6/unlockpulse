@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONDO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ondo-20270118@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:ONDO unlock: 35.1% of circulating (Strong)
+DESCRIPTION:Ondo (ONDO) unlocks 35.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/ondo.html
+URL:https://billibo6.github.io/unlockpulse/unlock/ondo.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ONDO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

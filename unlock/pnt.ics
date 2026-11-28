@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PNT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:pnt-20261204@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:PNT unlock: 13.4% of circulating (Strong)
+DESCRIPTION:Pheasant Network (PNT) unlocks 13.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/pnt.html
+URL:https://billibo6.github.io/unlockpulse/unlock/pnt.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:PNT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

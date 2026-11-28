@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ELSA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:elsa-20270120@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:ELSA unlock: 41.1% of circulating (Strong)
+DESCRIPTION:HeyElsa (ELSA) unlocks 41.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/elsa.html
+URL:https://billibo6.github.io/unlockpulse/unlock/elsa.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ELSA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

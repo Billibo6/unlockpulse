@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LVL token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:lvl-20261225@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:LVL unlock: 7.9% of circulating (Medium)
+DESCRIPTION:Level Finance (LVL) unlocks 7.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/lvl.html
+URL:https://billibo6.github.io/unlockpulse/unlock/lvl.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LVL unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

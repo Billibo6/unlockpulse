@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ZYLO token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:zylo-20261223@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:ZYLO unlock: 63.2% of circulating (Strong)
+DESCRIPTION:Zylo Ecosystem (ZYLO) unlocks 63.2% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/zylo.html
+URL:https://billibo6.github.io/unlockpulse/unlock/zylo.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ZYLO unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta name="color-scheme" content="light dark">
+<title>Page not found | Unlock Pulse</title>
+<style>:root{--bg:#f3f5f7;--surf:#fff;--line:#d9dfe6;--ink:#131a22;--mute:#5b6672;--acc:#0b7a5c;--acc-ink:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#0b0f12;--surf:#12181d;--line:#26313a;--ink:#e6ece9;--mute:#9aa7a2;--acc:#6fd6a5;--acc-ink:#06281c}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:48px 16px}a{color:inherit}.brand{font-weight:700;font-size:19px;text-decoration:none}
+h1{font-size:clamp(26px,6vw,36px);line-height:1.15;margin:28px 0 10px}p{margin:0 0 14px}.mute{color:var(--mute)}
+.row{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.btn{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border-radius:8px;border:1px solid var(--acc);text-decoration:none;font-weight:600}
+.btn.p{background:var(--acc);color:var(--acc-ink)}code{overflow-wrap:anywhere;font-size:14px}</style></head>
+<body><main>
+<a class="brand" id="home" href="/unlockpulse/">Unlock Pulse</a>
+<h1 id="h">This page does not exist</h1>
+<p id="p1">The address may be mistyped, or the page was removed: a coin page is taken down after its unlock date has passed.</p>
+<p class="mute"><code id="path"></code></p>
+<div class="row"><a class="btn p" id="cal" href="/unlockpulse/calendar/">Open the unlock calendar</a><a class="btn" id="mc" href="/unlockpulse/tools/my-coins.html">Check my coins</a><a class="btn" id="sc" href="/unlockpulse/schedule/">Unlock schedules by coin</a></div>
+<p class="mute" id="p2">Past strong unlocks and their results are kept in <a id="jr" href="/unlockpulse/journal.html">the journal</a>.</p>
+</main>
+<script>(function(){var p=location.pathname,d=document,g=function(i){return d.getElementById(i)};g('path').textContent=p;
+if(/^\/unlockpulse\/ru(\/|$)/i.test(p)){d.documentElement.lang='ru';d.title='Страница не найдена | Unlock Pulse';
+g('h').textContent='Такой страницы нет';g('p1').textContent='Возможно, в адресе опечатка или страницу убрали: страница монеты снимается после даты разлока.';
+g('cal').textContent='Открыть календарь разлоков';g('mc').textContent='Проверить мои монеты';g('sc').textContent='Графики разлоков по монетам';
+g('p2').innerHTML='Прошедшие сильные разлоки и их итоги хранятся в <a href="/unlockpulse/ru/journal.html">журнале</a>.';
+g('home').href='/unlockpulse/ru/';g('cal').href='/unlockpulse/ru/calendar/';g('mc').href='/unlockpulse/ru/tools/my-coins.html';g('sc').href='/unlockpulse/ru/schedule/'}})();</script>
+</body></html>

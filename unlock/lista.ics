@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LISTA token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:lista-20261201@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:LISTA unlock: 4.5% of circulating (Small)
+DESCRIPTION:Lista DAO (LISTA) unlocks 4.5% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/lista.html
+URL:https://billibo6.github.io/unlockpulse/unlock/lista.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:LISTA unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

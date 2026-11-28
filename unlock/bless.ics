@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BLESS token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:bless-20261223@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:BLESS unlock: 15.0% of circulating (Strong)
+DESCRIPTION:Bless (BLESS) unlocks 15.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/bless.html
+URL:https://billibo6.github.io/unlockpulse/unlock/bless.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:BLESS unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

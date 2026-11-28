@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:STABLE token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:stable-20270107@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:STABLE unlock: 4.9% of circulating (Small)
+DESCRIPTION:Stable (STABLE) unlocks 4.9% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/stable.html
+URL:https://billibo6.github.io/unlockpulse/unlock/stable.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:STABLE unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

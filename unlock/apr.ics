@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:APR token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:apr-20270122@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:APR unlock: 12.1% of circulating (Strong)
+DESCRIPTION:Apriori (APR) unlocks 12.1% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/apr.html
+URL:https://billibo6.github.io/unlockpulse/unlock/apr.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:APR unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

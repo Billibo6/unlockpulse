@@ -1,0 +1,15 @@
+Token unlocks, next 7 days (share of circulating supply):
+
+Nov 29  TBOT 18% · GRVT 64%
+Nov 30  BIGTIME 20%
+Dec 1  FOREST 13%
+Dec 2  AIO 11%
+Dec 5  VERONA 16%
+
+Sizes, recipients, futures:
+https://billibo6.github.io/unlockpulse/week/
+
+Not financial advice.
+
+--- ALT ---
+Chart of token unlocks in the next 7 days, each sized as a percentage of circulating supply: Nov 29 TBOT 18%; Nov 29 GRVT 64%; Nov 30 BIGTIME 20%; Dec 1 FOREST 13%; Dec 2 AIO 11%; Dec 5 VERONA 16%. Source: Unlock Pulse.

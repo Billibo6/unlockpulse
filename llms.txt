@@ -1,0 +1,34 @@
+# Unlock Pulse
+
+> Free calendar of crypto token unlocks for the next 60 days. Each unlock is rated strong (>= 10.4% of circulating supply), medium (>= 5%) or small, with the 2023-2026 record of how tokens moved against Bitcoin in the week before past unlocks. Our ratings, track record and texts are CC BY 4.0 (cite "Unlock Pulse" with a link); unlock schedules come from CoinMarketCap and DefiLlama and remain subject to their terms.
+
+Key facts: of 100 past strong unlocks, 78% were weaker than Bitcoin in the week before the unlock (average -7.3%); medium and small unlocks behaved close to a coin toss. When trackers disagree on circulating supply we show a range.
+
+## Data
+- [Calendar, next 60 days](https://billibo6.github.io/unlockpulse/)
+- [data.json, all upcoming unlocks](https://billibo6.github.io/unlockpulse/data.json)
+- [onchain.json, wallets holding locked allocations: balances, outflows, findings; CC BY 4.0](https://billibo6.github.io/unlockpulse/onchain.json)
+- [recipient_habits.json, per-coin recipient selling habit after past unlocks (Ethereum, reference only, not a trading signal)](https://billibo6.github.io/unlockpulse/recipient_habits.json)
+- [Method and track record](https://billibo6.github.io/unlockpulse/method.html)
+- [Research dataset on Zenodo, CSV, CC BY 4.0](https://doi.org/10.5281/zenodo.23949644)
+- [For journalists: monthly numbers, charts, CSV](https://billibo6.github.io/unlockpulse/report/)
+- [Token unlocks in December 2026: data for journalists](https://billibo6.github.io/unlockpulse/report/2026-12.html)
+
+## For AI assistants
+- [MCP server (remote, no key)](https://unlockpulse-mcp.unlockpulse.workers.dev/mcp), also in the Claude connectors directory
+- [How to connect](https://billibo6.github.io/unlockpulse/ai.html)
+
+## Journal
+- [The rule said 78 in 100. Since I started writing it down, it is 8 of 22.](https://billibo6.github.io/unlockpulse/letters/2026-11-16-rule-78-live-8-of-22.html): Three weeks of a public journal of strong token unlocks: 8 of 22 went the way the archive suggests. What Bitcoin's 15% fall has to do with it, and why the misses stay on the page.
+- [The cliff moved six months. My calendar did not notice.](https://billibo6.github.io/unlockpulse/investigations/allo-cliff-moved-six-months.html): On November 10 Allora postponed the unlock of 485.5 million ALLO held by its team and backers to May 2027. Six days later my own calendar still listed a strong ALLO unlock for December 10. What changed, and what is really left for December.
+- [Ten ideas about token unlocks that did not survive testing](https://billibo6.github.io/unlockpulse/lab/ten-ideas-that-did-not-survive.html): Recipient type, trading volume, post-unlock bounce, exchange inflows, funding skew and more: ten plausible ideas tested on 304 unlocks, and why only one rule about size remained.
+- [MBG has no unlock on November 22. It vests every second.](https://billibo6.github.io/unlockpulse/investigations/mbg-no-unlock-day.html): Calendars list an MBG unlock on November 22. The vesting contract releases tokens every second, and holders collect quarterly. My own card was wrong too.
+- [PYTH fell before its unlock, not after it](https://billibo6.github.io/unlockpulse/lab/pyth-may-2026-unlock-what-happened-after.html): In May 2026 Pyth unlocked 2.1 billion PYTH, 37% of the supply then trading. The coin lost 24% in the week before. Six months of what followed, against Bitcoin.
+- [The record: every strong unlock written down before the date](https://billibo6.github.io/unlockpulse/journal.html)
+- [What was tested and failed](https://billibo6.github.io/unlockpulse/tested.html)
+- [Questions, answered](https://billibo6.github.io/unlockpulse/q/)
+
+## Other
+- [Russian version](https://billibo6.github.io/unlockpulse/ru/)
+- [RSS](https://billibo6.github.io/unlockpulse/feed.xml)
+- [Telegram](https://t.me/unlockpulse)

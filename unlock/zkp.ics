@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ZKP token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:zkp-20261219@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:ZKP unlock: 6.4% of circulating (Medium)
+DESCRIPTION:zkPass (ZKP) unlocks 6.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/zkp.html
+URL:https://billibo6.github.io/unlockpulse/unlock/zkp.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ZKP unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

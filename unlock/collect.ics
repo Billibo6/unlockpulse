@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COLLECT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:collect-20261227@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:COLLECT unlock: 12.7% of circulating (Strong)
+DESCRIPTION:Collect on Fanable (COLLECT) unlocks 12.7% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/collect.html
+URL:https://billibo6.github.io/unlockpulse/unlock/collect.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:COLLECT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

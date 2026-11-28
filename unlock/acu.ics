@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACU token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:acu-20261220@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:ACU unlock: 7.0% of circulating (Medium)
+DESCRIPTION:Acurast (ACU) unlocks 7.0% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/acu.html
+URL:https://billibo6.github.io/unlockpulse/unlock/acu.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:ACU unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR

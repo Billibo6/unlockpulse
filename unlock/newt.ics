@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Unlock Pulse//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NEWT token unlock
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:newt-20261224@unlockpulse
+DTSTAMP:20261128T153102Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:NEWT unlock: 5.4% of circulating (Medium)
+DESCRIPTION:Newton Protocol (NEWT) unlocks 5.4% of circulating supply. Details: https://billibo6.github.io/unlockpulse/unlock/newt.html
+URL:https://billibo6.github.io/unlockpulse/unlock/newt.html
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:NEWT unlock in 7 days
+END:VALARM
+END:VEVENT
+END:VCALENDAR
